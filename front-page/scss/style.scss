@@ -102,5 +102,22 @@ h6 {
     padding: 0 80px;
     color: black;
     font-style: italic;
-    
+}
+
+//Footer
+
+.footer {
+    margin: 0 -20px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+
+    &__item {
+    }
+}
+
+.col-8 {
 }
