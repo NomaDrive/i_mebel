@@ -103,6 +103,16 @@ h6 {
   margin: 0 20px;
 }
 
+.col-6 {
+  width: calc(100% / 14 * 6 - 40px);
+  margin: 0 20px;
+}
+
+.col-2 {
+  width: calc(100% / 14 * 2 - 40px);
+  margin: 0 20px;
+}
+
 /*--------------------*/
 /*--------------------*/
 .wrapper {
@@ -111,6 +121,52 @@ h6 {
   padding: 0 80px;
   color: black;
   font-style: italic;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px;
+  padding: 27px 0;
+}
+
+.header__logo a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.header__city-name {
+  font-size: 12px;
+}
+
+.header__menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__menu-item a {
+  color: #000000;
+}
+
+.header__search {
+  background-color: salmon;
+}
+
+.header__contact-information {
+  margin-right: auto;
+}
+
+.header__phone {
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
 }
 
 .footer {
@@ -148,6 +204,6 @@ h6 {
   color: #000000;
 }
 
-.footer__item.current {
+.current {
   font-weight: bold;
 }

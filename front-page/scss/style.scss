@@ -104,6 +104,64 @@ h6 {
     font-style: italic;
 }
 
+
+//Header
+
+.header {
+    display: flex;
+    margin: 0 -20px;
+    padding: 27px 0;
+
+    &__logo {
+
+        a {
+            color: #000000;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+        }
+
+    }
+
+    &__city {
+
+    }
+
+    &__city-name {
+        font-size: 12px;
+    }
+
+    &__menu {}
+
+    &__menu-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__menu-item {
+        a{
+            color: #000000;
+        }
+    }
+
+    &__search {
+        background-color: salmon;
+    }
+
+    &__contact-information {
+        margin-right: auto;
+    }
+
+    &__phone {
+        font-weight: bold;
+        margin: 0px 0px 10px 0px;
+    }
+
+    &__address {}
+}
+
+
 //Footer
 
 .footer {
@@ -118,12 +176,12 @@ h6 {
 
     &__menu::before {
         content: "";
-       position: absolute;
-       top: 0;
-       left: 0;
-       right: 0;
-       height: 1px;
-       background-color: #000000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: #000000;
 
     }
 
@@ -137,8 +195,8 @@ h6 {
     &__item a {
         color: #000000;
     }
+}
 
-    &__item.current{
-        font-weight: bold;
-    }
+.current{
+    font-weight: bold;
 }

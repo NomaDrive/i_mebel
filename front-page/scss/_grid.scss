@@ -1,3 +1,10 @@
+
+
+$col-10: calc(100% / 14 * 10 - 40px);
+$col-6: calc(100% / 14 * 6 - 40px);
+$col-2: calc(100% / 14 * 2 - 40px);
+
+
 .page {
     max-width: 1440px;
     padding: 0 80px;
@@ -25,6 +32,16 @@
 // }
 
 .col-10 {
-    width: calc(100% / 14 * 10 - 40px);
+    width: $col-10;
+    margin: 0 20px;
+}
+
+.col-6 {
+    width: $col-6;
+    margin: 0 20px;
+}
+
+.col-2 {
+    width: $col-2;
     margin: 0 20px;
 }
