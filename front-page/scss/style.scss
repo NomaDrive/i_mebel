@@ -108,6 +108,25 @@ h6 {
 
 .footer {
     margin: 0 -20px;
+    font-weight: normal;
+    font-size: 12px;
+    position: relative;
+
+    &__menu {
+        padding: 30px 0 100px;
+    }
+
+    &__menu::before {
+        content: "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       height: 1px;
+       background-color: #000000;
+
+    }
+
 
     &__list {
         display: flex;
@@ -115,9 +134,11 @@ h6 {
         margin-left: auto;
     }
 
-    &__item {
+    &__item a {
+        color: #000000;
     }
-}
 
-.col-8 {
+    &__item.current{
+        font-weight: bold;
+    }
 }
