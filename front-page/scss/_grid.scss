@@ -9,42 +9,38 @@ $col-12: calc(100% / 14 * 12 - 40px);
     margin: 0 auto;
 }
 
-// .row {
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin: 0 -20px;
-// }
-
-// .item {
-//     background-color: red;
-//     padding: 50px 0px;
-//     width: calc(100% / 14 - 40px);
-//     margin: 0 20px;
-// }
-
-// .item-big {
-//     background-color: red;
-//     padding: 50px 0px;
-//     width: calc(100% / 14 * 2 - 40px);
-//     margin: 0 20px;
-// }
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
 
 .col-12 {
     width: $col-12;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .col-10 {
     width: $col-10;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .col-6 {
     width: $col-6;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .col-2 {
     width: $col-2;
-    margin: 0 20px;
+    padding: 0 20px;
 }
