@@ -113,8 +113,7 @@ body {
     padding-bottom: 27px;
     position: relative;
 
-    &__container {
-        margin: 0 -20px;
+    &__row {
         display: flex;
         position: relative;
         align-items: flex-end;
@@ -179,7 +178,6 @@ body {
         right: 0;
     }
 }
-
 
 //main
 

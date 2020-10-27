@@ -112,8 +112,8 @@ h6 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -10px;
-  margin-left: -10px;
+  margin-right: -20px;
+  margin-left: -20px;
 }
 
 .col-12 {
@@ -156,8 +156,7 @@ body {
   position: relative;
 }
 
-.header__container {
-  margin: 0 -20px;
+.header__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
