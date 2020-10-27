@@ -98,6 +98,11 @@ h6 {
   margin: 0 auto;
 }
 
+.col-12 {
+  width: calc(100% / 14 * 12 - 40px);
+  margin: 0 20px;
+}
+
 .col-10 {
   width: calc(100% / 14 * 10 - 40px);
   margin: 0 20px;
@@ -121,6 +126,10 @@ h6 {
   padding: 0 80px;
   color: black;
   font-style: italic;
+}
+
+body {
+  font-size: 12px;
 }
 
 .header {
@@ -192,9 +201,38 @@ h6 {
   right: 0;
 }
 
-main {
+.site {
   height: 300px;
   background-color: #d5f5ff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px;
+}
+
+.site__aside {
+  background-color: chocolate;
+}
+
+.site__content {
+  background-color: cornflowerblue;
+  height: 200px;
+  width: 100%;
+}
+
+.aside {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.aside__nav {
+  padding-top: 40px;
+}
+
+.aside__item:not(:last-child) {
+  margin-bottom: 16px;
 }
 
 .footer {
