@@ -3,6 +3,10 @@ $col-6: calc(100% / 14 * 6);
 $col-2: calc(100% / 14 * 2);
 $col-12: calc(100% / 14 * 12);
 
+
+// $colt: calc(100% / 14 * 12);
+// $colt-2: calc($colt / 12 * 2); 
+
 .container {
     width: 100%;
     padding-right: 20px;
