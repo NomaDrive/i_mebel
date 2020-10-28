@@ -141,6 +141,11 @@ h6 {
   padding: 0 20px;
 }
 
+.colf-2 {
+  width: calc(100% / 4 * 2);
+  padding: 0 20px;
+}
+
 /*--------------------*/
 /*--------------------*/
 body {
@@ -161,6 +166,16 @@ body {
   max-width: 1440px;
   padding: 0 60px;
   margin: 0 auto;
+}
+
+.white-btn {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ffffff;
+  font-weight: bold;
 }
 
 .header {
@@ -371,14 +386,7 @@ body {
 }
 
 .category__element-name {
-  position: absolute;
-  bottom: 0;
-  right: 20px;
-  text-align: center;
   min-width: 243px;
-  padding: 10px 0;
-  background-color: #ffffff;
-  font-weight: bold;
 }
 
 .category .kitchen {
@@ -432,6 +440,51 @@ body {
 
 .dop-information p {
   margin-bottom: 20px;
+}
+
+.under-category__elements {
+  margin: 0 -20px;
+}
+
+.under-category__element {
+  position: relative;
+}
+
+.under-category__element-button {
+  min-width: 149px;
+  padding: 15px 0;
+  bottom: 45px;
+}
+
+.under-category__element-description {
+  margin: 22px -20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+}
+
+.under-category__element-name {
+  font-weight: bold;
+  line-height: 130%;
+  font-size: 18px;
+}
+
+.under-category__element-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.under-category__element-sale-price {
+  margin-right: 15px;
+}
+
+.under-category__element-simple-price {
+  font-weight: bold;
 }
 
 .footer {

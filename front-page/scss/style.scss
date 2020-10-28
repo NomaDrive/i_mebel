@@ -116,6 +116,17 @@ body {
     margin: 0 auto;
 }
 
+//White-btn
+.white-btn {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
 //Header
 
 .header {
@@ -328,6 +339,7 @@ body {
 .category {
 
     margin-bottom: 100px;
+
     &__title {}
 
     &__elements {
@@ -344,15 +356,8 @@ body {
         position: relative;
     }
 
-    &__element-name{
-        position: absolute;
-        bottom: 0;
-        right: 20px;
-        text-align: center;
+    &__element-name {
         min-width: 243px;
-        padding: 10px 0;
-        background-color: #ffffff;
-        font-weight: bold;
     }
 
     .kitchen {
@@ -402,10 +407,58 @@ body {
         margin-bottom: 20px;
     }
 
-    p{
+    p {
         margin-bottom: 20px;
     }
 }
+
+//Under-category
+.under-category {
+
+    &__elements {
+        margin: 0 -20px;
+    }
+
+    &__element {
+        position: relative;
+    }
+
+    &__element-button {
+        min-width: 149px;
+        padding: 15px 0;
+        bottom: 45px;
+    }
+
+    &__element-description {
+        margin: 22px -20px 0;
+        display: flex;
+        font-size: 12px;
+
+    }
+
+    &__element-name {
+        font-weight: bold;
+        line-height: 130%;
+        font-size: 18px;
+    }
+
+    &__element-price {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__element-sale-price {
+        margin-right: 15px;
+    }
+
+    &__element-simple-price{
+        font-weight: bold;
+    }
+
+}
+
+
+
 
 //Footer
 

@@ -5,6 +5,10 @@ $col-4: calc(100% / 14 * 4);
 $col-2: calc(100% / 14 * 2);
 
 $coltw-4: calc(100% / 12 * 4);
+$coltw-2: calc(100% / 12 * 2);
+
+$colf-2: calc(100% / 4 * 2);
+
 
 // $colt: calc(100% / 14 * 12);
 // $colt-2: calc($colt / 12 * 2);
@@ -53,5 +57,10 @@ $coltw-4: calc(100% / 12 * 4);
 /*----------------------*/
 .coltw-4 {
     width: $coltw-4;
+    padding: 0 20px;
+}
+
+.colf-2{
+    width: $colf-2;
     padding: 0 20px;
 }
