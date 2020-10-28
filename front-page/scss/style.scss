@@ -116,6 +116,15 @@ body {
     margin: 0 auto;
 }
 
+
+//Title
+
+.title {
+    font-size: 40px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
 //White-btn
 .white-btn {
     position: absolute;
@@ -159,8 +168,7 @@ body {
         }
     }
 
-    &__city {
-    }
+    &__city {}
 
     &__city-name {
         display: flex;
@@ -177,8 +185,7 @@ body {
         margin: auto 0;
     }
 
-    &__menu {
-    }
+    &__menu {}
 
     &__menu-list {
         display: flex;
@@ -194,8 +201,7 @@ body {
         margin-right: 25px;
     }
 
-    &__search {
-    }
+    &__search {}
 
     .search-header {
         display: flex;
@@ -232,11 +238,9 @@ body {
     }
 }
 
-.col {
-}
+.col {}
 
-.col-2 {
-}
+.col-2 {}
 
 //main
 
@@ -261,19 +265,17 @@ body {
         padding-top: 40px;
     }
 
-    &__list {
-    }
+    &__list {}
 
-    &__item {
-    }
-    &__item:hover {
-    }
+    &__item {}
+
+    &__item:hover {}
 
     &__item:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    &__item:hover > .submenu,
+    &__item:hover>.submenu,
     .sub-menu:hover {
         width: auto;
         visibility: visible;
@@ -292,6 +294,7 @@ body {
         top: -74px;
         left: 130px;
     }
+
     a {
         color: #000000;
     }
@@ -303,20 +306,19 @@ body {
         font-weight: bold;
     }
 
-    &__list {
-    }
+    &__list {}
 
     &__item {
         padding-left: 15px;
     }
+
     &__item:not(:last-child) {
         margin-bottom: 16px;
     }
 }
 
 .content {
-    &__container {
-    }
+    &__container {}
 }
 
 .site {
@@ -324,6 +326,7 @@ body {
         margin-bottom: 76px;
     }
 }
+
 .preview {
     &__title {
         font-weight: bold;
@@ -338,8 +341,7 @@ body {
         position: relative;
     }
 
-    &__slider {
-    }
+    &__slider {}
 
     &__froze {
         position: absolute;
@@ -348,11 +350,13 @@ body {
         transform: translate(0, -50%);
     }
 }
+
 .slider-preview {
     position: relative;
-    &__item {
-    }
+
+    &__item {}
 }
+
 .froze {
     &__title {
         font-weight: 600;
@@ -376,25 +380,30 @@ body {
         color: #000000;
     }
 }
+
 .buttons {
     width: 148px;
     padding: 12px 0;
     text-align: center;
     cursor: pointer;
 }
+
 .slick-list {
     overflow: hidden;
 }
+
 /* Лента слайдов */
 .slick-track {
     display: flex;
 }
+
 .slick-arrow {
     position: absolute;
     bottom: 0;
     font-size: 0;
     z-index: 12;
 }
+
 .slick-arrow.slick-prev {
     right: 46px;
     width: 47px;
@@ -403,6 +412,7 @@ body {
     margin: auto 0;
     background-color: #ffffff;
 }
+
 .slick-arrow.slick-next {
     right: 0;
     width: 47px;
@@ -415,12 +425,11 @@ body {
 
 //section-order-present
 .site {
-    &__start-kitchen {
-    }
+    &__start-kitchen {}
 }
+
 .product-present {
-    &__info {
-    }
+    &__info {}
 
     &__title {
         font-weight: bold;
@@ -440,24 +449,24 @@ body {
         position: relative;
     }
 
-    &__order {
-    }
+    &__order {}
 }
-.row {
-}
-.coltw-8 {
-}
-.titles {
-}
+
+.row {}
+
+.coltw-8 {}
+
+.titles {}
+
 .slider-product-present {
-    &__item {
-    }
+    &__item {}
 }
 
 .product-present__main {
     display: flex;
     flex-wrap: wrap;
 }
+
 .order {
     display: flex;
     flex-direction: column;
@@ -486,27 +495,27 @@ body {
         margin-bottom: auto;
     }
 
-    &__price {
-    }
+    &__price {}
 
     &__button {
         border: 1px solid #000000;
         box-sizing: border-box;
     }
 }
-.coltw-4 {
-}
+
+.coltw-4 {}
+
 .price {
     margin-bottom: 20px;
-    &__old {
-    }
+
+    &__old {}
 
     &__new {
         margin-right: 15px;
     }
 }
-.buttons {
-}
+
+.buttons {}
 
 //Filtr
 
@@ -519,12 +528,22 @@ body {
         // justify-content: space-between;
     }
 
-    &__element {
+    &__element,
+    &__button-open {
         flex: 0 1 148px;
-        background-color: #f5f5f5;
         padding: 4px 0;
         text-align: center;
+
+    }
+
+    &__element {
+        background-color: #f5f5f5;
         margin: 0px 40px 10px 0px;
+    }
+
+    &__button-open {
+        background-color: #ffffff;
+        margin-bottom: 10px;
     }
 
     &__element:nth-child(6n) {
@@ -537,7 +556,96 @@ body {
     }
 }
 
-//Bread-ctubs
+
+//Contact
+
+
+.contact {
+    margin-bottom: 80px;
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__map {}
+
+    &__information {}
+
+    &__information-address {}
+
+    &__information-manufacture {}
+
+    &__information-shop {
+        margin-bottom: 95px;
+    }
+
+    &__information-manufacture li,
+    &__information-shop li {
+        margin-bottom: 10px;
+    }
+
+    &__social-networks {
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border: 1px solid black;
+        padding: 12px 0;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.social-networks {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    &__link {
+        color: inherit;
+    }
+}
+
+
+
+.address {
+    margin-bottom: 10px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    &__content {}
+}
+
+.manufacture {
+
+    &__title {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    &__content {}
+}
+
+.shop {
+
+    &__title {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    &__content {}
+}
+
++ //Bread-ctubs
 
 .bread-crumbs {
     margin-bottom: 15px;
@@ -547,8 +655,8 @@ body {
 
 .category {
     margin-bottom: 100px;
-    &__title {
-    }
+
+    &__title {}
 
     &__elements {
         display: flex;
@@ -596,14 +704,8 @@ body {
 .dop-information {
     margin-bottom: 75px;
 
-    &__row {
-        display: flex;
-        margin: 0 -20px;
-    }
-
     &__title {
         text-align: right;
-        margin-top: 110px;
     }
 
     &__item {
@@ -624,12 +726,53 @@ body {
 .under-category {
     margin-bottom: 100px;
 
+    &__header {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        line-height: unset;
+    }
+
+    &__number-of-goods {
+        align-self: center;
+        position: relative;
+    }
+
+    &__content-toggler {
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+
+
+        .toggler-container {
+            display: flex;
+            width: min-content;
+            border: 1px solid #000000;
+            background-color: #ffffff;
+        }
+
+        .btn-prev,
+        .btn-next {
+            width: 47px;
+            height: 40px;
+            background: url("../img/arrow-slider.svg") no-repeat center;
+        }
+
+        .btn-next {
+            transform: scale(-1);
+        }
+    }
+
     &__elements {
-        margin: 0 -20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     &__element {
         position: relative;
+        margin-bottom: 35px;
     }
 
     &__element-button {
@@ -707,10 +850,9 @@ body {
     font-weight: bold;
 }
 
-//Title
-
-.title {
-    font-size: 40px;
-    line-height: 150%;
+.count {
     font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

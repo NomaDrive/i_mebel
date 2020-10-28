@@ -5,6 +5,7 @@ $col-4: calc(1320px / 14 * 4);
 $col-2: calc(1320px / 14 * 2);
 
 $coltw-4: calc(1131px / 12 * 4);
+$coltw-3: calc(1131px / 12 * 3);
 $coltw-2: calc(1131px / 12 * 2);
 
 $colf-2: calc(337px / 4 * 2);
@@ -56,6 +57,17 @@ $coltw-8: calc(1131px / 12 * 8);
 }
 
 /*----------------------*/
+
+.coltw-2{
+    width: $coltw-2;
+    padding: 0 20px;
+
+}
+.coltw-3 {
+    width: $coltw-3;
+    padding: 0 20px;
+}
+
 .coltw-4 {
     width: $coltw-4;
     padding: 0 20px;
