@@ -141,13 +141,12 @@ h6 {
   padding: 0 20px;
 }
 
-<<<<<<< HEAD
 .colf-2 {
   width: calc(100% / 4 * 2);
-=======
+}
+
 .coltw-8 {
   width: calc(100% / 12 * 8);
->>>>>>> 6ddbc7bf6c056d7f5767c6a14133cd5c36e3af57
   padding: 0 20px;
 }
 
@@ -571,6 +570,10 @@ body {
 }
 
 .category__element-name {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  text-align: center;
   min-width: 243px;
 }
 
