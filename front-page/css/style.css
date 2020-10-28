@@ -349,6 +349,10 @@ body {
   margin-bottom: 15px;
 }
 
+.category {
+  margin-bottom: 100px;
+}
+
 .category__elements {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,11 +364,74 @@ body {
 
 .category__element {
   height: 336px;
-  background-color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+  position: relative;
 }
 
-.category__element:nth-child(3n) {
-  margin-right: 0;
+.category__element-name {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  text-align: center;
+  min-width: 243px;
+  padding: 10px 0;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.category .kitchen {
+  background-image: url(../img/kitchen.jpg);
+}
+
+.category .cabinet {
+  background-image: url(../img/cabinet.jpg);
+}
+
+.category .living-room {
+  background-image: url(../img/living-room.jpg);
+}
+
+.category .hallway {
+  background-image: url(../img/hallway.jpg);
+}
+
+.category .childrens {
+  background-image: url(../img/childrens.jpg);
+}
+
+.category .curbstone {
+  background-image: url(../img/curbstone.jpg);
+}
+
+.dop-information {
+  margin-bottom: 75px;
+}
+
+.dop-information__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px;
+}
+
+.dop-information__title {
+  text-align: right;
+  margin-top: 110px;
+}
+
+.dop-information__item {
+  line-height: 18px;
+}
+
+.dop-information__item-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dop-information p {
+  margin-bottom: 20px;
 }
 
 .footer {

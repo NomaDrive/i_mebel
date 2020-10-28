@@ -148,15 +148,16 @@ body {
         }
     }
 
-    &__city {
-    }
+    &__city {}
 
     &__city-name {
         display: flex;
     }
+
     .name {
         margin-right: 10px;
     }
+
     .arrows {
         background: url("/front-page/img/arrow.svg");
         width: 8px;
@@ -164,8 +165,7 @@ body {
         margin: auto 0;
     }
 
-    &__menu {
-    }
+    &__menu {}
 
     &__menu-list {
         display: flex;
@@ -176,15 +176,17 @@ body {
             color: #000000;
         }
     }
+
     &__menu-item:not(:last-child) {
         margin-right: 25px;
     }
 
-    &__search {
-    }
+    &__search {}
+
     .search-header {
         display: flex;
         position: relative;
+
         &__icon {
             background: url("/front-page/img/search.svg");
             width: 19px;
@@ -216,10 +218,9 @@ body {
     }
 }
 
-.col {
-}
-.col-2 {
-}
+.col {}
+
+.col-2 {}
 
 //main
 
@@ -239,21 +240,20 @@ body {
 
 .aside {
     position: relative;
+
     &__nav {
         padding-top: 40px;
     }
 
-    &__list {
-    }
+    &__list {}
 
-    &__item {
-    }
+    &__item {}
 
     &__item:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    &__item:hover > .submenu,
+    &__item:hover>.submenu,
     .sub-menu:hover {
         height: auto;
         visibility: visible;
@@ -277,19 +277,15 @@ body {
 }
 
 .submenu {
-    &__title {
-    }
+    &__title {}
 
-    &__list {
-    }
+    &__list {}
 
-    &__item {
-    }
+    &__item {}
 }
 
 .content {
-    &__container {
-    }
+    &__container {}
 }
 
 //Filtr
@@ -330,8 +326,9 @@ body {
 //Section-categoty
 
 .category {
-    &__title {
-    }
+
+    margin-bottom: 100px;
+    &__title {}
 
     &__elements {
         display: flex;
@@ -340,13 +337,73 @@ body {
     }
 
     &__element {
-        // width: 337px;
         height: 336px;
-        background-color: aqua;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 40px;
+        position: relative;
     }
 
-    &__element:nth-child(3n) {
-        margin-right: 0;
+    &__element-name{
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        text-align: center;
+        min-width: 243px;
+        padding: 10px 0;
+        background-color: #ffffff;
+        font-weight: bold;
+    }
+
+    .kitchen {
+        background-image: url(../img/kitchen.jpg);
+    }
+
+    .cabinet {
+        background-image: url(../img/cabinet.jpg);
+    }
+
+    .living-room {
+        background-image: url(../img/living-room.jpg);
+    }
+
+    .hallway {
+        background-image: url(../img/hallway.jpg);
+    }
+
+    .childrens {
+        background-image: url(../img/childrens.jpg);
+    }
+
+    .curbstone {
+        background-image: url(../img/curbstone.jpg);
+    }
+}
+
+.dop-information {
+    margin-bottom: 75px;
+
+    &__row {
+        display: flex;
+        margin: 0 -20px;
+    }
+
+    &__title {
+        text-align: right;
+        margin-top: 110px;
+    }
+
+    &__item {
+        line-height: 18px;
+    }
+
+    &__item-title {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p{
+        margin-bottom: 20px;
     }
 }
 
