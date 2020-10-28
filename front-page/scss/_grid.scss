@@ -9,6 +9,7 @@ $coltw-2: calc(100% / 12 * 2);
 
 $colf-2: calc(100% / 4 * 2);
 
+$coltw-8: calc(100% / 12 * 8);
 
 // $colt: calc(100% / 14 * 12);
 // $colt-2: calc($colt / 12 * 2);
@@ -62,5 +63,8 @@ $colf-2: calc(100% / 4 * 2);
 
 .colf-2{
     width: $colf-2;
+}
+.coltw-8 {
+    width: $coltw-8;
     padding: 0 20px;
 }
