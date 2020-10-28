@@ -453,10 +453,14 @@ body {
     &__item {
     }
 }
+
+.product-present__main {
+    display: flex;
+    flex-wrap: wrap;
+}
 .order {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 
     &__title {
         font-weight: bold;
@@ -479,7 +483,7 @@ body {
 
     &__material-description {
         line-height: 18px;
-        margin-bottom: 190px;
+        margin-bottom: auto;
     }
 
     &__price {
