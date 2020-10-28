@@ -98,8 +98,7 @@ h6 {
 
 body {
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
@@ -225,7 +224,6 @@ body {
 
 .site {
     background-color: rgb(213, 245, 255);
-    overflow: hidden;
     display: flex;
 
     &__aside {
@@ -259,18 +257,20 @@ body {
     .sub-menu:hover {
         height: auto;
         visibility: visible;
+        width: auto;
+        height: auto;
         opacity: 1;
+        background: #f5f5f5;
         transition: all 200ms linear 0ms;
     }
 
     &__submenu {
         opacity: 0;
-        width: max-content;
         padding: 0;
         height: 0;
         width: 0;
         position: absolute;
-        top: 0;
+        top: -74px;
         left: auto;
         right: 0;
     }
