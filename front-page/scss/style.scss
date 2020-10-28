@@ -99,6 +99,7 @@ h6 {
 body {
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .wrapper {
@@ -232,7 +233,6 @@ body {
 
     &__content {
         background-color: cornflowerblue;
-        height: 200px;
         margin-top: 40px;
     }
 }
@@ -317,6 +317,7 @@ body {
 
     &__link {
         color: inherit;
+        font-weight: 400;
     }
 }
 
@@ -324,6 +325,29 @@ body {
 
 .bread-crumbs {
     margin-bottom: 15px;
+}
+
+//Section-categoty
+
+.category {
+    &__title {
+    }
+
+    &__elements {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -20px;
+    }
+
+    &__element {
+        // width: 337px;
+        height: 336px;
+        background-color: aqua;
+    }
+
+    &__element:nth-child(3n) {
+        margin-right: 0;
+    }
 }
 
 //Footer
@@ -374,4 +398,5 @@ body {
 .title {
     font-size: 40px;
     line-height: 150%;
+    font-weight: bold;
 }

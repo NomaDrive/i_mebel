@@ -1,7 +1,9 @@
+$col-12: calc(100% / 14 * 12);
 $col-10: calc(100% / 14 * 10);
 $col-6: calc(100% / 14 * 6);
+$col-4: calc(100% / 14 *4);
 $col-2: calc(100% / 14 * 2);
-$col-12: calc(100% / 14 * 12);
+
 
 // $colt: calc(100% / 14 * 12);
 // $colt-2: calc($colt / 12 * 2);
@@ -36,6 +38,12 @@ $col-12: calc(100% / 14 * 12);
     width: $col-6;
     padding: 0 20px;
 }
+
+.col-4 {
+    width: $col-4;
+    padding: 0 20px;
+}
+
 
 .col-2 {
     width: $col-2;
