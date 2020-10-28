@@ -154,9 +154,11 @@ body {
     &__city-name {
         display: flex;
     }
+
     .name {
         margin-right: 10px;
     }
+
     .arrows {
         background: url("/front-page/img/arrow.svg");
         width: 8px;
@@ -176,15 +178,18 @@ body {
             color: #000000;
         }
     }
+
     &__menu-item:not(:last-child) {
         margin-right: 25px;
     }
 
     &__search {
     }
+
     .search-header {
         display: flex;
         position: relative;
+
         &__icon {
             background: url("/front-page/img/search.svg");
             width: 19px;
@@ -218,6 +223,7 @@ body {
 
 .col {
 }
+
 .col-2 {
 }
 
@@ -239,6 +245,7 @@ body {
 
 .aside {
     position: relative;
+
     &__nav {
         padding-top: 40px;
     }
@@ -524,6 +531,7 @@ body {
 //Section-categoty
 
 .category {
+    margin-bottom: 100px;
     &__title {
     }
 
@@ -534,13 +542,73 @@ body {
     }
 
     &__element {
-        // width: 337px;
         height: 336px;
-        background-color: aqua;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 40px;
+        position: relative;
     }
 
-    &__element:nth-child(3n) {
-        margin-right: 0;
+    &__element-name {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        text-align: center;
+        min-width: 243px;
+        padding: 10px 0;
+        background-color: #ffffff;
+        font-weight: bold;
+    }
+
+    .kitchen {
+        background-image: url(../img/kitchen.jpg);
+    }
+
+    .cabinet {
+        background-image: url(../img/cabinet.jpg);
+    }
+
+    .living-room {
+        background-image: url(../img/living-room.jpg);
+    }
+
+    .hallway {
+        background-image: url(../img/hallway.jpg);
+    }
+
+    .childrens {
+        background-image: url(../img/childrens.jpg);
+    }
+
+    .curbstone {
+        background-image: url(../img/curbstone.jpg);
+    }
+}
+
+.dop-information {
+    margin-bottom: 75px;
+
+    &__row {
+        display: flex;
+        margin: 0 -20px;
+    }
+
+    &__title {
+        text-align: right;
+        margin-top: 110px;
+    }
+
+    &__item {
+        line-height: 18px;
+    }
+
+    &__item-title {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 20px;
     }
 }
 
