@@ -233,8 +233,10 @@ body {
     &__content {
         background-color: cornflowerblue;
         height: 200px;
+        margin-top: 40px;
     }
 }
+
 .aside {
     position: relative;
     &__nav {
@@ -246,6 +248,7 @@ body {
 
     &__item {
     }
+
     &__item:not(:last-child) {
         margin-bottom: 16px;
     }
@@ -289,10 +292,43 @@ body {
 
 //Filtr
 
+.filtr {
+    margin-bottom: 45px;
+
+    &__elements {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-between;
+    }
+
+    &__element {
+        flex: 0 1 148px;
+        background-color: #f5f5f5;
+        padding: 4px 0;
+        text-align: center;
+        margin: 0px 40px 10px 0px;
+    }
+
+    &__element:nth-child(6n) {
+        margin-right: 0;
+    }
+
+    &__link {
+        color: inherit;
+    }
+}
+
+//Bread-ctubs
+
+.bread-crumbs {
+    margin-bottom: 15px;
+}
+
 //Footer
 
 .footer {
     position: relative;
+
     &__container {
         margin: 0 -20px;
         font-weight: normal;
@@ -329,4 +365,11 @@ body {
 
 .current {
     font-weight: bold;
+}
+
+//Title
+
+.title {
+    font-size: 40px;
+    line-height: 150%;
 }
