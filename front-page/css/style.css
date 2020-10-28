@@ -141,13 +141,12 @@ h6 {
   padding: 0 20px;
 }
 
-<<<<<<< HEAD
 .colf-2 {
   width: calc(100% / 4 * 2);
-=======
+}
+
 .coltw-8 {
   width: calc(100% / 12 * 8);
->>>>>>> 6ddbc7bf6c056d7f5767c6a14133cd5c36e3af57
   padding: 0 20px;
 }
 
@@ -627,6 +626,10 @@ body {
   margin-bottom: 20px;
 }
 
+.under-category {
+  margin-bottom: 100px;
+}
+
 .under-category__elements {
   margin: 0 -20px;
 }
@@ -642,7 +645,7 @@ body {
 }
 
 .under-category__element-description {
-  margin: 22px -20px 0;
+  margin: 22px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

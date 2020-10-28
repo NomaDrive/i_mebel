@@ -543,13 +543,8 @@ body {
 
 .category {
     margin-bottom: 100px;
-<<<<<<< HEAD
-
-    &__title {}
-=======
     &__title {
     }
->>>>>>> 6ddbc7bf6c056d7f5767c6a14133cd5c36e3af57
 
     &__elements {
         display: flex;
@@ -566,13 +561,6 @@ body {
     }
 
     &__element-name {
-<<<<<<< HEAD
-=======
-        position: absolute;
-        bottom: 0;
-        right: 20px;
-        text-align: center;
->>>>>>> 6ddbc7bf6c056d7f5767c6a14133cd5c36e3af57
         min-width: 243px;
     }
 
@@ -630,6 +618,7 @@ body {
 
 //Under-category
 .under-category {
+    margin-bottom: 100px;
 
     &__elements {
         margin: 0 -20px;
@@ -646,7 +635,7 @@ body {
     }
 
     &__element-description {
-        margin: 22px -20px 0;
+        margin: 22px 0 0;
         display: flex;
         font-size: 12px;
 
