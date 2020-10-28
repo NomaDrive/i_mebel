@@ -1,15 +1,15 @@
-$col-12: calc(100% / 14 * 12);
-$col-10: calc(100% / 14 * 10);
-$col-6: calc(100% / 14 * 6);
-$col-4: calc(100% / 14 * 4);
-$col-2: calc(100% / 14 * 2);
+$col-12: calc(1320px / 14 * 12);
+$col-10: calc(1320px / 14 * 10);
+$col-6: calc(1320px / 14 * 6);
+$col-4: calc(1320px / 14 * 4);
+$col-2: calc(1320px / 14 * 2);
 
-$coltw-4: calc(100% / 12 * 4);
-$coltw-2: calc(100% / 12 * 2);
+$coltw-4: calc(1091px / 12 * 4);
+$coltw-2: calc(1091px / 12 * 2);
 
-$colf-2: calc(100% / 4 * 2);
+$colf-2: calc(337px / 4 * 2);
 
-$coltw-8: calc(100% / 12 * 8);
+$coltw-8: calc(1091px / 12 * 8);
 
 // $colt: calc(100% / 14 * 12);
 // $colt-2: calc($colt / 12 * 2);
@@ -61,7 +61,7 @@ $coltw-8: calc(100% / 12 * 8);
     padding: 0 20px;
 }
 
-.colf-2{
+.colf-2 {
     width: $colf-2;
 }
 .coltw-8 {
