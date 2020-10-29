@@ -180,7 +180,7 @@ body {
     }
 
     .arrows {
-        background: url("/front-page/img/arrow.svg");
+        background: url(../img/arrow.svg);
         width: 8px;
         height: 6px;
         margin: auto 0;
@@ -211,7 +211,7 @@ body {
         position: relative;
 
         &__icon {
-            background: url("/front-page/img/search.svg");
+            background: url(../img/search.svg);
             width: 19px;
             height: 19px;
             background-size: contain;
@@ -428,7 +428,7 @@ body {
     right: 46px;
     width: 47px;
     height: 40px;
-    background: url("/front-page/img/arrow-slider.svg") no-repeat center;
+    background: url(../img/arrow-slider.svg) no-repeat center;
     margin: auto 0;
     background-color: #ffffff;
 }
@@ -437,7 +437,7 @@ body {
     right: 0;
     width: 47px;
     height: 40px;
-    background: url("/front-page/img/arrow-slider.svg") no-repeat center;
+    background: url(../img/arrow-slider.svg) no-repeat center;
     transform: scale(-1);
     margin: auto 0;
     background-color: #ffffff;
@@ -746,7 +746,7 @@ body {
     }
 
     &__img {
-        background: url("/front-page/img/calc.jpg") no-repeat;
+        background: url(../img/calc.jpg) no-repeat;
         background-size: cover;
         height: 100%;
     }
@@ -915,7 +915,7 @@ body {
     }
 
     &__img {
-        background: url("/front-page/img/curbstone-slider.jpg");
+        background: url(../img/curbstone-slider.jpg);
         height: 430px;
         margin-bottom: 30px;
     }
@@ -1210,23 +1210,19 @@ body {
 
     &__our-question {
         margin-bottom: 85px;
-
     }
 
-    &__inst{
-
+    &__inst {
     }
 
     &__vk-group {
         margin-bottom: 85px;
- 
     }
 }
 
 //Vk-group
 .vk-group {
-
-    &__header{
+    &__header {
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -1241,7 +1237,6 @@ body {
     }
 }
 
-
 //Our-question
 
 .our-question {
@@ -1253,8 +1248,7 @@ body {
     }
 
     &__form-text-fields {
-
-        .button{
+        .button {
             width: 100%;
         }
     }
@@ -1284,10 +1278,9 @@ body {
 //Question
 
 .question {
-
     margin-bottom: 20px;
 
-    &:hover &__response{
+    &:hover &__response {
         padding: 15px 0;
         max-height: 500px;
         transition: all 0.2s ease-in;
@@ -1298,7 +1291,6 @@ body {
         font-size: 18px;
         cursor: pointer;
         // margin-bottom: 15px;
-
     }
 
     &__response {
@@ -1423,7 +1415,7 @@ body {
         .btn-next {
             width: 47px;
             height: 40px;
-            background: url("../img/arrow-slider.svg") no-repeat center;
+            background: url(../img/arrow-slider.svg) no-repeat center;
         }
 
         .btn-next {
