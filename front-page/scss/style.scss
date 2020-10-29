@@ -1200,6 +1200,7 @@ body {
 
     &__video {
         margin-bottom: 30px;
+        cursor: pointer;
     }
 
     &__caption {
@@ -1209,8 +1210,39 @@ body {
 
     &__our-question {
         margin-bottom: 85px;
+
+    }
+
+    &__inst{
+
+    }
+
+    &__vk-group {
+        margin-bottom: 85px;
+ 
     }
 }
+
+//Vk-group
+.vk-group {
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+    }
+
+    &__buttons {
+        align-self: flex-end;
+    }
+}
+
+
+//Our-question
 
 .our-question {
     &__title {
@@ -1221,6 +1253,10 @@ body {
     }
 
     &__form-text-fields {
+
+        .button{
+            width: 100%;
+        }
     }
 
     &__form-text-field {
@@ -1245,16 +1281,32 @@ body {
     }
 }
 
+//Question
+
 .question {
-    margin-bottom: 30px;
+
+    margin-bottom: 20px;
+
+    &:hover &__response{
+        padding: 15px 0;
+        max-height: 500px;
+        transition: all 0.2s ease-in;
+    }
 
     &__name {
         font-weight: bold;
         font-size: 18px;
-        margin-bottom: 15px;
+        cursor: pointer;
+        // margin-bottom: 15px;
+
     }
 
     &__response {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0px 0;
+        cursor: default;
+        transition: all 0.2s ease;
     }
 }
 
@@ -1480,11 +1532,17 @@ body {
 
 .button {
     text-align: center;
-    padding: 12px 0;
-    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .button--black {
     background-color: #000000;
     color: #ffffff;
+}
+
+.button--white {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
 }
