@@ -403,6 +403,7 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
+
 .slick-slider {
     position: relative;
 }
@@ -551,6 +552,7 @@ body {
 //Section purchase
 .dop-purchase {
     margin-bottom: 115px;
+
     &__title {
         font-weight: bold;
         font-size: 40px;
@@ -569,6 +571,7 @@ body {
 
     &__description {
     }
+
     &__description-title {
         font-weight: bold;
         font-size: 18px;
@@ -593,18 +596,24 @@ body {
         box-sizing: border-box;
     }
 }
+
 .row {
 }
+
 .coltw-3 {
 }
+
 .coltw-5 {
 }
+
 .slider-purchase {
     &__item {
     }
 }
+
 .coltw-4 {
 }
+
 .price {
     &__new {
     }
@@ -612,9 +621,11 @@ body {
     &__old {
     }
 }
+
 //section cupboard
 .site__cupboard-present {
     margin-bottom: 85px;
+
     .product-present__slidshow {
         order: 1;
     }
@@ -630,6 +641,7 @@ body {
         margin-bottom: 75px;
     }
 }
+
 .furn-day {
     &__title {
         margin-bottom: 15px;
@@ -652,21 +664,28 @@ body {
     &__info {
     }
 }
+
 .title {
 }
+
 .row {
 }
+
 .coltw-3 {
 }
+
 .slider-furn-day {
     margin-bottom: 30px;
+
     &__item {
     }
 }
+
 .info-furn {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     &__title {
         font-weight: bold;
         font-size: 18px;
@@ -677,6 +696,7 @@ body {
         margin-bottom: 0;
     }
 }
+
 .info-furn .price {
     &__old {
         margin-right: 12px;
@@ -686,6 +706,7 @@ body {
         margin-right: 0;
     }
 }
+
 .coltw-5 {
 }
 
@@ -702,6 +723,7 @@ body {
         margin-bottom: 120px;
     }
 }
+
 .cost-calc {
     &__sec {
     }
@@ -729,12 +751,16 @@ body {
         height: 100%;
     }
 }
+
 .row {
 }
+
 .coltw-3 {
 }
+
 .title {
 }
+
 .calc-but {
     padding: 12px;
     border: 1px solid #000000;
@@ -742,11 +768,14 @@ body {
     text-align: center;
     cursor: pointer;
 }
+
 .coltw-5 {
 }
+
 .call-worker {
     display: flex;
     flex-direction: column;
+
     &__title {
         font-weight: bold;
         font-size: 18px;
@@ -767,6 +796,7 @@ body {
     &__button {
     }
 }
+
 .coltw-4 {
 }
 
@@ -795,8 +825,10 @@ body {
     &__button {
     }
 }
+
 .coltw-3 {
 }
+
 .buttons {
 }
 
@@ -807,6 +839,7 @@ body {
         margin-bottom: 80px;
     }
 }
+
 .playroom {
     &__title {
         margin-bottom: 30px;
@@ -818,6 +851,7 @@ body {
 
     &__description {
     }
+
     &__info {
         display: flex;
         justify-content: space-between;
@@ -829,12 +863,15 @@ body {
         color: #ffffff;
     }
 }
+
 .title {
 }
+
 .slider-playroom {
     &__item {
     }
 }
+
 .playroom-description {
     &__offer {
         font-weight: 600;
@@ -846,6 +883,7 @@ body {
     &__offer-info {
     }
 }
+
 .buttons {
 }
 
@@ -855,6 +893,7 @@ body {
         margin-bottom: 75px;
     }
 }
+
 .style {
     &__header {
         display: flex;
@@ -884,12 +923,16 @@ body {
     &__info {
     }
 }
+
 .title {
 }
+
 .row {
 }
+
 .coltw-3 {
 }
+
 .stile-info {
     &__title {
         margin-bottom: 15px;
@@ -907,6 +950,7 @@ body {
     &__instagram {
     }
 }
+
 .inst {
     &__title {
         margin-bottom: 40px;
@@ -914,6 +958,7 @@ body {
 
     &__content {
     }
+
     &__card {
         position: relative;
         margin-bottom: 40px;
@@ -935,14 +980,18 @@ body {
         opacity: 1;
         height: auto;
     }
+
     &__card:hover img {
         opacity: 0.3;
     }
 }
+
 .title {
 }
+
 .row {
 }
+
 .coltw-4 {
 }
 
@@ -1073,7 +1122,87 @@ body {
     }
 }
 
-+ //Bread-ctubs
+//Answers
+
+.answers {
+    &__sections {
+        margin-bottom: 70px;
+    }
+
+    &__left-section {
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__question {
+    }
+
+    &__right-section {
+    }
+
+    &__video {
+        margin-bottom: 30px;
+    }
+
+    &__caption {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    &__our-question {
+        margin-bottom: 85px;
+    }
+}
+
+.our-question {
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__form {
+    }
+
+    &__form-text-fields {
+    }
+
+    &__form-text-field {
+        display: block;
+        width: 100%;
+        padding: 18px 12px;
+        border: 1px solid #000000;
+    }
+
+    &__form-text-field:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    &__form-textareas {
+    }
+
+    &__form-textarea {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 18px 12px;
+    }
+}
+
+.question {
+    margin-bottom: 30px;
+
+    &__name {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    &__response {
+    }
+}
+
+//Bread-ctubs
 
 .bread-crumbs {
     margin-bottom: 15px;
@@ -1284,9 +1413,21 @@ body {
     font-size: 40px;
     line-height: 44px;
 }
+
 .count {
     font-weight: bold;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.button {
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.button--black {
+    background-color: #000000;
+    color: #ffffff;
 }
