@@ -155,6 +155,11 @@ h6 {
   width: calc(337px / 4 * 2);
 }
 
+.coltw-7 {
+  width: calc(1131px / 12 * 7);
+  padding: 0 20px;
+}
+
 .coltw-8 {
   width: calc(1131px / 12 * 8);
   padding: 0 20px;
@@ -177,6 +182,11 @@ h6 {
 
 .coltw-5 {
   width: calc(1131px / 12 * 5);
+  padding: 0 20px;
+}
+
+.coltw-12 {
+  width: calc(1131px / 12 * 12);
   padding: 0 20px;
 }
 
@@ -974,8 +984,32 @@ body {
   margin-bottom: 85px;
 }
 
+.answers__vk-group {
+  margin-bottom: 85px;
+}
+
+.vk-group__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.vk-group__buttons {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 .our-question__title {
   margin-bottom: 40px;
+}
+
+.our-question__form-text-fields .button {
+  width: 100%;
 }
 
 .our-question__form-text-field {
@@ -1261,11 +1295,17 @@ body {
 
 .button {
   text-align: center;
-  padding: 12px 0;
-  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .button--black {
   background-color: #000000;
   color: #ffffff;
+}
+
+.button--white {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
 }

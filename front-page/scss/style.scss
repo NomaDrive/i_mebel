@@ -1154,8 +1154,39 @@ body {
 
     &__our-question {
         margin-bottom: 85px;
+
+    }
+
+    &__inst{
+
+    }
+
+    &__vk-group {
+        margin-bottom: 85px;
+ 
     }
 }
+
+//Vk-group
+.vk-group {
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+    }
+
+    &__buttons {
+        align-self: flex-end;
+    }
+}
+
+
+//Our-question
 
 .our-question {
     &__title {
@@ -1166,6 +1197,10 @@ body {
     }
 
     &__form-text-fields {
+
+        .button{
+            width: 100%;
+        }
     }
 
     &__form-text-field {
@@ -1190,8 +1225,9 @@ body {
     }
 }
 
+//Question
+
 .question {
-<<<<<<< HEAD
 
     margin-bottom: 20px;
 
@@ -1200,14 +1236,10 @@ body {
         max-height: 500px;
         transition: all 0.2s ease-in;
     }
-=======
-    margin-bottom: 30px;
->>>>>>> 0655f3390761eb4faac5a9e268759e18b023eee1
 
     &__name {
         font-weight: bold;
         font-size: 18px;
-<<<<<<< HEAD
         cursor: pointer;
         // margin-bottom: 15px;
 
@@ -1219,12 +1251,6 @@ body {
         padding: 0px 0;
         cursor: default;
         transition: all 0.2s ease;
-=======
-        margin-bottom: 15px;
-    }
-
-    &__response {
->>>>>>> 0655f3390761eb4faac5a9e268759e18b023eee1
     }
 }
 
@@ -1449,11 +1475,17 @@ body {
 
 .button {
     text-align: center;
-    padding: 12px 0;
-    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .button--black {
     background-color: #000000;
     color: #ffffff;
+}
+
+.button--white {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
 }
