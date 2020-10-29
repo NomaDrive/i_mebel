@@ -11,43 +11,38 @@
 
 <body>
   <div class="page">
-    <header class="header">
+    <div class="container">
+      <header class="header">
 
-      <div class="header__container container">
+          <div class="header__row row">
 
-        <div class="header__row row">
+            <div class="header__logo col col-2">
+              <a href="#">ITEM</a>
+            </div>
 
-          <div class="header__logo col col-2">
-            <a href="#">ITEM</a>
+            <div class="header__city col col-2">
+              <div class="header__city-name">Пенза</div>
+            </div>
+
+            <nav class="header__menu col col-6">
+              <ul class="header__menu-list">
+                <li class="header__menu-item "><a href="#">3D Конструктор</a></li>
+                <li class="header__menu-item"><a href="#">Рассчитать онлайн</a></li>
+                <li class="header__menu-item"><a href="#">Дизайнер онлайн</a></li>
+                <li class="header__menu-item current"><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+
+            <div class="header__search col col-2"></div>
+
+            <div class="header__contact-information col col-2">
+              <div class="header__phone">8 800 000 00 00</div>
+              <div class="header__address">Гагарина, 11а</div>
+            </div>
           </div>
 
-          <div class="header__city col col-2">
-            <div class="header__city-name">Пенза</div>
-          </div>
-
-          <nav class="header__menu col col-6">
-            <ul class="header__menu-list">
-              <li class="header__menu-item "><a href="#">3D Конструктор</a></li>
-              <li class="header__menu-item"><a href="#">Рассчитать онлайн</a></li>
-              <li class="header__menu-item"><a href="#">Дизайнер онлайн</a></li>
-              <li class="header__menu-item current"><a href="#">Контакты</a></li>
-            </ul>
-          </nav>
-
-          <div class="header__search col col-2"></div>
-
-          <div class="header__contact-information col col-2">
-            <div class="header__phone">8 800 000 00 00</div>
-            <div class="header__address">Гагарина, 11а</div>
-          </div>
-        </div>
-      </div>
-
-
-
-    </header>
-    <div class="site">
-      <div class="site__container container">
+      </header>
+      <div class="site">
         <div class="site__row row">
 
           <aside class="site__aside aside col-2">
@@ -72,14 +67,17 @@
 
               <div class="row">
                 <div class="contact__map coltw-8">
-                  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5db9212763b5355f6cab6666cd854a0dc0ebe224cf0b1761b7e47784daacc926&amp;source=constructor" width="100%" height="440" frameborder="0"></iframe>
+                  <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A5db9212763b5355f6cab6666cd854a0dc0ebe224cf0b1761b7e47784daacc926&amp;source=constructor"
+                    width="100%" height="440" frameborder="0"></iframe>
                 </div>
 
                 <div class="contact__information coltw-4">
 
                   <div class="contact__information-address address">
                     <div class="address__title">Адреса</div>
-                    <div class="address__content">Мебель можно заказать и на производстве, и в магазине, и вызвать замерщика домой.</div>
+                    <div class="address__content">Мебель можно заказать и на производстве, и в магазине, и вызвать
+                      замерщика домой.</div>
                   </div>
 
                   <div class="contact__information-manufacture manufacture">
@@ -133,29 +131,25 @@
 
         </div>
       </div>
+      <footer class="footer">
 
+          <div class="footer__row row">
+            <nav class="footer__menu col-10">
+              <ul class="footer__list">
+                <li class="footer__item current"><a href="#"> Главная</a></li>
+                <li class="footer__item"> <a href="#">Каталог</a></li>
+                <li class="footer__item"> <a href="#">Как заказать</a></li>
+                <li class="footer__item"> <a href="#">Рассчитать онлайн</a></li>
+                <li class="footer__item"> <a href="#">Сроки изготовления</a></li>
+                <li class="footer__item"> <a href="#">Ответы</a></li>
+                <li class="footer__item"> <a href="#">Стать партнером</a></li>
+                <li class="footer__item"> <a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+
+      </footer>
     </div>
-
-    <footer class="footer">
-      <div class="footer__container container">
-        <div class="footer__row row">
-          <nav class="footer__menu col-10">
-            <ul class="footer__list">
-              <li class="footer__item current"><a href="#"> Главная</a></li>
-              <li class="footer__item"> <a href="#">Каталог</a></li>
-              <li class="footer__item"> <a href="#">Как заказать</a></li>
-              <li class="footer__item"> <a href="#">Рассчитать онлайн</a></li>
-              <li class="footer__item"> <a href="#">Сроки изготовления</a></li>
-              <li class="footer__item"> <a href="#">Ответы</a></li>
-              <li class="footer__item"> <a href="#">Стать партнером</a></li>
-              <li class="footer__item"> <a href="#">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
-
-    </footer>
   </div>
 
 </body>

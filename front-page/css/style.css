@@ -903,6 +903,7 @@ body {
 
 .filtr {
   margin-bottom: 45px;
+  margin-top: 40px;
 }
 
 .filtr__elements {
@@ -946,6 +947,7 @@ body {
 
 .contact__title {
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .contact__information-shop {
@@ -1105,15 +1107,6 @@ body {
   margin-bottom: 100px;
 }
 
-.category__elements {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 -20px;
-}
-
 .category__element {
   height: 336px;
   background-repeat: no-repeat;
@@ -1152,10 +1145,6 @@ body {
 
 .dop-information {
   margin-bottom: 75px;
-}
-
-.dop-information__title {
-  text-align: right;
 }
 
 .dop-information__item {
@@ -1269,14 +1258,6 @@ body {
           justify-content: flex-end;
 }
 
-.under-category__element-sale-price {
-  margin-right: 15px;
-}
-
-.under-category__element-simple-price {
-  font-weight: bold;
-}
-
 .footer {
   position: relative;
   font-weight: normal;
@@ -1316,6 +1297,14 @@ body {
 }
 
 .current {
+  font-weight: bold;
+}
+
+.price s {
+  margin-right: 15px;
+}
+
+.price span {
   font-weight: bold;
 }
 
