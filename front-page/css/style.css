@@ -966,6 +966,7 @@ body {
 
 .answers__video {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .answers__caption {
@@ -1000,13 +1001,29 @@ body {
 }
 
 .question {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.question:hover .question__response {
+  padding: 15px 0;
+  max-height: 500px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .question__name {
   font-weight: bold;
   font-size: 18px;
-  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.question__response {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0px 0;
+  cursor: default;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .bread-crumbs {

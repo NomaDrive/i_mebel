@@ -1064,6 +1064,7 @@ body {
 
     &__video {
         margin-bottom: 30px;
+        cursor: pointer;
     }
 
     &__caption {
@@ -1116,16 +1117,29 @@ body {
 
 .question {
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+
+    &:hover &__response{
+        padding: 15px 0;
+        max-height: 500px;
+        transition: all 0.2s ease-in;
+    }
 
     &__name {
         font-weight: bold;
         font-size: 18px;
-        margin-bottom: 15px;
+        cursor: pointer;
+        // margin-bottom: 15px;
 
     }
 
-    &__response {}
+    &__response {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0px 0;
+        cursor: default;
+        transition: all 0.2s ease;
+    }
 }
 
 
