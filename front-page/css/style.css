@@ -334,7 +334,7 @@ body {
 }
 
 .aside__nav {
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .aside__item:not(:last-child) {
@@ -851,6 +851,34 @@ body {
   opacity: 0.3;
 }
 
+.tovar .site__instagram {
+  margin-bottom: 45px;
+}
+
+.magazine-cat {
+  margin-bottom: 90px;
+}
+
+.magazine-cat__title {
+  margin-bottom: 30px;
+}
+
+.magazine-cat__sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.magazine-cat__title-descripion {
+  margin-bottom: 30px;
+}
+
+.magazine-cat__img img {
+  height: 100%;
+  width: 100%;
+}
+
 .filtr {
   margin-bottom: 45px;
 }
@@ -1007,6 +1035,7 @@ body {
 
 .bread-crumbs {
   margin-bottom: 15px;
+  margin-top: 45px;
 }
 
 .category {

@@ -267,7 +267,7 @@ body {
     position: relative;
 
     &__nav {
-        padding-top: 40px;
+        padding-top: 45px;
     }
 
     &__list {
@@ -995,6 +995,62 @@ body {
 .coltw-4 {
 }
 
+//tovar
+
+.tovar .site__instagram {
+    margin-bottom: 45px;
+}
+
+.magazine-cat {
+    margin-bottom: 90px;
+    &__content {
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__sub-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    &__title-descripion {
+        margin-bottom: 30px;
+    }
+
+    &__img img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.row {
+}
+.coltw-4 {
+}
+.title {
+}
+.sub-title {
+}
+.our-question {
+    &__form {
+    }
+
+    &__form-text-fields {
+    }
+
+    &__form-text-field {
+    }
+}
+.button {
+}
+.button--black {
+}
+.coltw-8 {
+}
+
 //Filtr
 
 .filtr {
@@ -1206,6 +1262,7 @@ body {
 
 .bread-crumbs {
     margin-bottom: 15px;
+    margin-top: 45px;
 }
 
 //Section-categoty
