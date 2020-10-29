@@ -116,6 +116,14 @@ body {
     margin: 0 auto;
 }
 
+//Title
+
+.title {
+    font-size: 40px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
 //White-btn
 .white-btn {
     position: absolute;
@@ -266,6 +274,7 @@ body {
 
     &__item {
     }
+
     &__item:hover {
     }
 
@@ -293,6 +302,7 @@ body {
         top: -74px;
         left: 130px;
     }
+
     a {
         color: #000000;
     }
@@ -310,6 +320,7 @@ body {
     &__item {
         padding-left: 15px;
     }
+
     &__item:not(:last-child) {
         margin-bottom: 16px;
     }
@@ -325,6 +336,7 @@ body {
         margin-bottom: 76px;
     }
 }
+
 .preview {
     &__title {
         font-weight: bold;
@@ -349,11 +361,14 @@ body {
         transform: translate(0, -50%);
     }
 }
+
 .slider-preview {
     position: relative;
+
     &__item {
     }
 }
+
 .froze {
     &__title {
         font-weight: 600;
@@ -377,6 +392,7 @@ body {
         color: #000000;
     }
 }
+
 .buttons {
     width: 148px;
     padding: 12px 0;
@@ -389,19 +405,23 @@ body {
 .slick-slider {
     position: relative;
 }
+
 .slick-list {
     overflow: hidden;
 }
+
 /* Лента слайдов */
 .slick-track {
     display: flex;
 }
+
 .slick-arrow {
     position: absolute;
     bottom: 0;
     font-size: 0;
     z-index: 12;
 }
+
 .slick-arrow.slick-prev {
     right: 46px;
     width: 47px;
@@ -410,6 +430,7 @@ body {
     margin: auto 0;
     background-color: #ffffff;
 }
+
 .slick-arrow.slick-next {
     right: 0;
     width: 47px;
@@ -426,6 +447,7 @@ body {
         margin-bottom: 140px;
     }
 }
+
 .product-present {
     &__info {
     }
@@ -451,12 +473,16 @@ body {
     &__order {
     }
 }
+
 .row {
 }
+
 .coltw-8 {
 }
+
 .titles {
 }
+
 .slider-product-present {
     &__item {
     }
@@ -466,6 +492,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
 .order {
     display: flex;
     flex-direction: column;
@@ -502,10 +529,13 @@ body {
         box-sizing: border-box;
     }
 }
+
 .coltw-4 {
 }
+
 .price {
     margin-bottom: 20px;
+
     &__old {
     }
 
@@ -513,6 +543,7 @@ body {
         margin-right: 15px;
     }
 }
+
 .buttons {
 }
 
@@ -924,12 +955,21 @@ body {
         // justify-content: space-between;
     }
 
-    &__element {
+    &__element,
+    &__button-open {
         flex: 0 1 148px;
-        background-color: #f5f5f5;
         padding: 4px 0;
         text-align: center;
+    }
+
+    &__element {
+        background-color: #f5f5f5;
         margin: 0px 40px 10px 0px;
+    }
+
+    &__button-open {
+        background-color: #ffffff;
+        margin-bottom: 10px;
     }
 
     &__element:nth-child(6n) {
@@ -942,7 +982,96 @@ body {
     }
 }
 
-//Bread-ctubs
+//Contact
+
+.contact {
+    margin-bottom: 80px;
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__map {
+    }
+
+    &__information {
+    }
+
+    &__information-address {
+    }
+
+    &__information-manufacture {
+    }
+
+    &__information-shop {
+        margin-bottom: 95px;
+    }
+
+    &__information-manufacture li,
+    &__information-shop li {
+        margin-bottom: 10px;
+    }
+
+    &__social-networks {
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border: 1px solid black;
+        padding: 12px 0;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.social-networks {
+    &__list {
+        display: flex;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    &__link {
+        color: inherit;
+    }
+}
+
+.address {
+    margin-bottom: 10px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    &__content {
+    }
+}
+
+.manufacture {
+    &__title {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    &__content {
+    }
+}
+
+.shop {
+    &__title {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    &__content {
+    }
+}
+
++ //Bread-ctubs
 
 .bread-crumbs {
     margin-bottom: 15px;
@@ -971,10 +1100,6 @@ body {
     }
 
     &__element-name {
-        position: absolute;
-        bottom: 0;
-        right: 20px;
-        text-align: center;
         min-width: 243px;
     }
 
@@ -1006,14 +1131,8 @@ body {
 .dop-information {
     margin-bottom: 75px;
 
-    &__row {
-        display: flex;
-        margin: 0 -20px;
-    }
-
     &__title {
         text-align: right;
-        margin-top: 110px;
     }
 
     &__item {
@@ -1032,12 +1151,54 @@ body {
 
 //Under-category
 .under-category {
+    margin-bottom: 100px;
+
+    &__header {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        line-height: unset;
+    }
+
+    &__number-of-goods {
+        align-self: center;
+        position: relative;
+    }
+
+    &__content-toggler {
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+
+        .toggler-container {
+            display: flex;
+            width: min-content;
+            border: 1px solid #000000;
+            background-color: #ffffff;
+        }
+
+        .btn-prev,
+        .btn-next {
+            width: 47px;
+            height: 40px;
+            background: url("../img/arrow-slider.svg") no-repeat center;
+        }
+
+        .btn-next {
+            transform: scale(-1);
+        }
+    }
+
     &__elements {
-        margin: 0 -20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     &__element {
         position: relative;
+        margin-bottom: 35px;
     }
 
     &__element-button {
@@ -1047,7 +1208,7 @@ body {
     }
 
     &__element-description {
-        margin: 22px -20px 0;
+        margin: 22px 0 0;
         display: flex;
         font-size: 12px;
     }
@@ -1120,5 +1281,10 @@ body {
 .title {
     font-size: 40px;
     line-height: 44px;
+}
+.count {
     font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
