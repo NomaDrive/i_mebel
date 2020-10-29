@@ -281,6 +281,7 @@ body {
         opacity: 1;
         background: #f5f5f5;
         transition: all 200ms linear 0ms;
+        z-index: 10000;
     }
 
     &__submenu {
@@ -381,6 +382,12 @@ body {
     padding: 12px 0;
     text-align: center;
     cursor: pointer;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+}
+.slick-slider {
+    position: relative;
 }
 .slick-list {
     overflow: hidden;
@@ -416,6 +423,7 @@ body {
 //section-order-present
 .site {
     &__start-kitchen {
+        margin-bottom: 140px;
     }
 }
 .product-present {
@@ -506,6 +514,403 @@ body {
     }
 }
 .buttons {
+}
+
+//Section purchase
+.dop-purchase {
+    margin-bottom: 115px;
+    &__title {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    &__card {
+    }
+
+    &__slider {
+        margin-bottom: 30px;
+    }
+
+    &__info {
+    }
+
+    &__description {
+    }
+    &__description-title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    &__description-content {
+        line-height: 18px;
+    }
+
+    &__order {
+    }
+
+    &__price {
+        line-height: 130%;
+        text-align: right;
+        margin-bottom: 3px;
+    }
+
+    &__button {
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+}
+.row {
+}
+.coltw-3 {
+}
+.coltw-5 {
+}
+.slider-purchase {
+    &__item {
+    }
+}
+.coltw-4 {
+}
+.price {
+    &__new {
+    }
+
+    &__old {
+    }
+}
+//section cupboard
+.site__cupboard-present {
+    margin-bottom: 85px;
+    .product-present__slidshow {
+        order: 1;
+    }
+}
+.site__cupboard-present .product-present__title {
+    line-height: 44px;
+}
+
+//section furn-day
+
+.site {
+    &__furn-day {
+        margin-bottom: 75px;
+    }
+}
+.furn-day {
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        line-height: 18px;
+        margin-bottom: 36px;
+    }
+
+    &__slideshow {
+    }
+
+    &__card {
+    }
+
+    &__slider {
+    }
+
+    &__info {
+    }
+}
+.title {
+}
+.row {
+}
+.coltw-3 {
+}
+.slider-furn-day {
+    margin-bottom: 30px;
+    &__item {
+    }
+}
+.info-furn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    &__price {
+        margin-bottom: 0;
+    }
+}
+.info-furn .price {
+    &__old {
+        margin-right: 12px;
+    }
+
+    &__new {
+        margin-right: 0;
+    }
+}
+.coltw-5 {
+}
+
+//site-lounge
+
+.site__lounge {
+    margin-bottom: 120px;
+}
+
+//section cost-calc
+
+.site {
+    &__cost-calc {
+        margin-bottom: 120px;
+    }
+}
+.cost-calc {
+    &__sec {
+    }
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    &__title-description {
+        margin-bottom: 110px;
+    }
+
+    &__button-online {
+        margin-bottom: 15px;
+    }
+
+    &__button-design {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    &__img {
+        background: url("/front-page/img/calc.jpg") no-repeat;
+        background-size: 100%;
+        height: 100%;
+    }
+}
+.row {
+}
+.coltw-3 {
+}
+.title {
+}
+.calc-but {
+    padding: 12px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+}
+.coltw-5 {
+}
+.call-worker {
+    display: flex;
+    flex-direction: column;
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 130%;
+        margin-bottom: 11px;
+    }
+
+    &__title-description {
+        flex: 1 1 auto;
+    }
+
+    &__sale {
+        font-weight: bold;
+        margin-bottom: 18px;
+        margin-top: auto;
+    }
+
+    &__button {
+    }
+}
+.coltw-4 {
+}
+
+//bestseller
+.site__bestseller {
+    margin-bottom: 85px;
+}
+.product-present {
+    &__order {
+        order: -1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+    }
+}
+.order {
+    &__title {
+    }
+
+    &__title-decription {
+        flex: 1 1 auto;
+    }
+
+    &__button {
+    }
+}
+.coltw-3 {
+}
+.buttons {
+}
+
+//playroom
+
+.site {
+    &__playroom {
+        margin-bottom: 80px;
+    }
+}
+.playroom {
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__slider {
+        margin-bottom: 30px;
+    }
+
+    &__description {
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__button {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+.title {
+}
+.slider-playroom {
+    &__item {
+    }
+}
+.playroom-description {
+    &__offer {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    &__offer-info {
+    }
+}
+.buttons {
+}
+
+//section-style
+.site {
+    &__style {
+        margin-bottom: 75px;
+    }
+}
+.style {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__more {
+    }
+
+    &__main {
+    }
+
+    &__card {
+    }
+
+    &__img {
+        background: url("/front-page/img/curbstone-slider.jpg");
+        height: 430px;
+        margin-bottom: 30px;
+    }
+
+    &__info {
+    }
+}
+.title {
+}
+.row {
+}
+.coltw-3 {
+}
+.stile-info {
+    &__title {
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    &__description {
+    }
+}
+
+//section inst
+.site {
+    &__instagram {
+    }
+}
+.inst {
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__content {
+    }
+    &__card {
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    &__card a {
+        position: absolute;
+        margin: auto;
+        z-index: 10;
+        opacity: 0;
+        overflow: hidden;
+        height: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__card:hover > a {
+        opacity: 1;
+        height: auto;
+    }
+    &__card:hover img {
+        opacity: 0.3;
+    }
+}
+.title {
+}
+.row {
+}
+.coltw-4 {
 }
 
 //Filtr
@@ -714,6 +1119,6 @@ body {
 
 .title {
     font-size: 40px;
-    line-height: 150%;
+    line-height: 44px;
     font-weight: bold;
 }

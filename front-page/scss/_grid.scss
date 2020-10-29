@@ -4,12 +4,15 @@ $col-6: calc(1320px / 14 * 6);
 $col-4: calc(1320px / 14 * 4);
 $col-2: calc(1320px / 14 * 2);
 
+$coltw-9: calc(1131px / 12 * 9);
+$coltw-8: calc(1131px / 12 * 8);
+$coltw-5: calc(1131px / 12 * 5);
 $coltw-4: calc(1131px / 12 * 4);
+$coltw-2: calc(1131px / 12 * 2);
+$coltw-3: calc(1131px / 12 * 3);
 $coltw-2: calc(1131px / 12 * 2);
 
 $colf-2: calc(337px / 4 * 2);
-
-$coltw-8: calc(1131px / 12 * 8);
 
 // $colt: calc(100% / 14 * 12);
 // $colt-2: calc($colt / 12 * 2);
@@ -66,5 +69,24 @@ $coltw-8: calc(1131px / 12 * 8);
 }
 .coltw-8 {
     width: $coltw-8;
+    padding: 0 20px;
+}
+
+.coltw-9 {
+    width: $coltw-9;
+    padding: 0 20px;
+}
+
+.coltw-3 {
+    width: $coltw-3;
+    padding: 0 20px;
+}
+.coltw-2 {
+    width: $coltw-2;
+    padding: 0 20px;
+}
+
+.coltw-5 {
+    width: $coltw-5;
     padding: 0 20px;
 }
