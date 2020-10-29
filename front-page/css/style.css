@@ -186,6 +186,7 @@ body {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  line-height: 18px;
 }
 
 .wrapper {
@@ -319,19 +320,13 @@ body {
 }
 
 .site {
-  background-color: #d5f5ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.site__aside {
-  background-color: chocolate;
-}
-
-.site__content {
-  background-color: cornflowerblue;
-  margin-top: 40px;
+.site__content.main-page {
+  margin-top: 85px;
 }
 
 .aside {
@@ -613,7 +608,7 @@ body {
           order: 1;
 }
 
-.site__cupboard-present .product-present__title {
+.product-present__title {
   line-height: 44px;
 }
 
@@ -691,7 +686,7 @@ body {
 
 .cost-calc__img {
   background: url("/front-page/img/calc.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 100%;
 }
 
@@ -701,6 +696,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
+  cursor: pointer;
 }
 
 .call-worker {
@@ -736,7 +732,7 @@ body {
   margin-bottom: 85px;
 }
 
-.product-present__order {
+.site__bestseller .product-present__order {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
@@ -749,7 +745,7 @@ body {
           flex-direction: column;
 }
 
-.order__title-decription {
+.site__bestseller .order__title-decription {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;

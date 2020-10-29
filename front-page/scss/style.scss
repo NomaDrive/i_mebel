@@ -100,6 +100,7 @@ body {
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    line-height: 18px;
 }
 
 .wrapper {
@@ -167,7 +168,8 @@ body {
         }
     }
 
-    &__city {}
+    &__city {
+    }
 
     &__city-name {
         display: flex;
@@ -184,7 +186,8 @@ body {
         margin: auto 0;
     }
 
-    &__menu {}
+    &__menu {
+    }
 
     &__menu-list {
         display: flex;
@@ -200,7 +203,8 @@ body {
         margin-right: 25px;
     }
 
-    &__search {}
+    &__search {
+    }
 
     .search-header {
         display: flex;
@@ -237,23 +241,25 @@ body {
     }
 }
 
-.col {}
+.col {
+}
 
-.col-2 {}
+.col-2 {
+}
 
 //main
 
 .site {
-    background-color: rgb(213, 245, 255);
+    //background-color: rgb(213, 245, 255);
     display: flex;
 
     &__aside {
-        background-color: chocolate;
+        //background-color: chocolate;
     }
 
-    &__content {
-        background-color: cornflowerblue;
-        margin-top: 40px;
+    &__content.main-page {
+        //background-color: cornflowerblue;
+        margin-top: 85px;
     }
 }
 
@@ -264,17 +270,20 @@ body {
         padding-top: 40px;
     }
 
-    &__list {}
+    &__list {
+    }
 
-    &__item {}
+    &__item {
+    }
 
-    &__item:hover {}
+    &__item:hover {
+    }
 
     &__item:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    &__item:hover>.submenu,
+    &__item:hover > .submenu,
     .sub-menu:hover {
         width: auto;
         visibility: visible;
@@ -306,7 +315,8 @@ body {
         font-weight: bold;
     }
 
-    &__list {}
+    &__list {
+    }
 
     &__item {
         padding-left: 15px;
@@ -318,7 +328,8 @@ body {
 }
 
 .content {
-    &__container {}
+    &__container {
+    }
 }
 
 .site {
@@ -341,7 +352,8 @@ body {
         position: relative;
     }
 
-    &__slider {}
+    &__slider {
+    }
 
     &__froze {
         position: absolute;
@@ -354,7 +366,8 @@ body {
 .slider-preview {
     position: relative;
 
-    &__item {}
+    &__item {
+    }
 }
 
 .froze {
@@ -438,7 +451,8 @@ body {
 }
 
 .product-present {
-    &__info {}
+    &__info {
+    }
 
     &__title {
         font-weight: bold;
@@ -458,17 +472,22 @@ body {
         position: relative;
     }
 
-    &__order {}
+    &__order {
+    }
 }
 
-.row {}
+.row {
+}
 
-.coltw-8 {}
+.coltw-8 {
+}
 
-.titles {}
+.titles {
+}
 
 .slider-product-present {
-    &__item {}
+    &__item {
+    }
 }
 
 .product-present__main {
@@ -504,7 +523,8 @@ body {
         margin-bottom: auto;
     }
 
-    &__price {}
+    &__price {
+    }
 
     &__button {
         border: 1px solid #000000;
@@ -512,19 +532,22 @@ body {
     }
 }
 
-.coltw-4 {}
+.coltw-4 {
+}
 
 .price {
     margin-bottom: 20px;
 
-    &__old {}
+    &__old {
+    }
 
     &__new {
         margin-right: 15px;
     }
 }
 
-.buttons {}
+.buttons {
+}
 
 //Section purchase
 .dop-purchase {
@@ -536,15 +559,18 @@ body {
         line-height: 44px;
     }
 
-    &__card {}
+    &__card {
+    }
 
     &__slider {
         margin-bottom: 30px;
     }
 
-    &__info {}
+    &__info {
+    }
 
-    &__description {}
+    &__description {
+    }
 
     &__description-title {
         font-weight: bold;
@@ -556,7 +582,8 @@ body {
         line-height: 18px;
     }
 
-    &__order {}
+    &__order {
+    }
 
     &__price {
         line-height: 130%;
@@ -570,22 +597,29 @@ body {
     }
 }
 
-.row {}
-
-.coltw-3 {}
-
-.coltw-5 {}
-
-.slider-purchase {
-    &__item {}
+.row {
 }
 
-.coltw-4 {}
+.coltw-3 {
+}
+
+.coltw-5 {
+}
+
+.slider-purchase {
+    &__item {
+    }
+}
+
+.coltw-4 {
+}
 
 .price {
-    &__new {}
+    &__new {
+    }
 
-    &__old {}
+    &__old {
+    }
 }
 
 //section cupboard
@@ -596,8 +630,7 @@ body {
         order: 1;
     }
 }
-
-.site__cupboard-present .product-present__title {
+.product-present__title {
     line-height: 44px;
 }
 
@@ -619,25 +652,33 @@ body {
         margin-bottom: 36px;
     }
 
-    &__slideshow {}
+    &__slideshow {
+    }
 
-    &__card {}
+    &__card {
+    }
 
-    &__slider {}
+    &__slider {
+    }
 
-    &__info {}
+    &__info {
+    }
 }
 
-.title {}
+.title {
+}
 
-.row {}
+.row {
+}
 
-.coltw-3 {}
+.coltw-3 {
+}
 
 .slider-furn-day {
     margin-bottom: 30px;
 
-    &__item {}
+    &__item {
+    }
 }
 
 .info-furn {
@@ -666,7 +707,8 @@ body {
     }
 }
 
-.coltw-5 {}
+.coltw-5 {
+}
 
 //site-lounge
 
@@ -683,7 +725,8 @@ body {
 }
 
 .cost-calc {
-    &__sec {}
+    &__sec {
+    }
 
     &__title {
         margin-bottom: 25px;
@@ -704,25 +747,30 @@ body {
 
     &__img {
         background: url("/front-page/img/calc.jpg") no-repeat;
-        background-size: 100%;
+        background-size: cover;
         height: 100%;
     }
 }
 
-.row {}
+.row {
+}
 
-.coltw-3 {}
+.coltw-3 {
+}
 
-.title {}
+.title {
+}
 
 .calc-but {
     padding: 12px;
     border: 1px solid #000000;
     box-sizing: border-box;
     text-align: center;
+    cursor: pointer;
 }
 
-.coltw-5 {}
+.coltw-5 {
+}
 
 .call-worker {
     display: flex;
@@ -745,39 +793,44 @@ body {
         margin-top: auto;
     }
 
-    &__button {}
+    &__button {
+    }
 }
 
-.coltw-4 {}
+.coltw-4 {
+}
 
 //bestseller
 .site__bestseller {
     margin-bottom: 85px;
 }
-
-.product-present {
+.site__bestseller .product-present {
     &__order {
         order: -1;
         display: flex;
         flex-direction: column;
     }
 
-    &__title {}
+    &__title {
+    }
 }
-
-.order {
-    &__title {}
+.site__bestseller .order {
+    &__title {
+    }
 
     &__title-decription {
         flex: 1 1 auto;
     }
 
-    &__button {}
+    &__button {
+    }
 }
 
-.coltw-3 {}
+.coltw-3 {
+}
 
-.buttons {}
+.buttons {
+}
 
 //playroom
 
@@ -796,7 +849,8 @@ body {
         margin-bottom: 30px;
     }
 
-    &__description {}
+    &__description {
+    }
 
     &__info {
         display: flex;
@@ -810,10 +864,12 @@ body {
     }
 }
 
-.title {}
+.title {
+}
 
 .slider-playroom {
-    &__item {}
+    &__item {
+    }
 }
 
 .playroom-description {
@@ -824,10 +880,12 @@ body {
         margin-bottom: 15px;
     }
 
-    &__offer-info {}
+    &__offer-info {
+    }
 }
 
-.buttons {}
+.buttons {
+}
 
 //section-style
 .site {
@@ -847,11 +905,14 @@ body {
         margin-bottom: 40px;
     }
 
-    &__more {}
+    &__more {
+    }
 
-    &__main {}
+    &__main {
+    }
 
-    &__card {}
+    &__card {
+    }
 
     &__img {
         background: url("/front-page/img/curbstone-slider.jpg");
@@ -859,14 +920,18 @@ body {
         margin-bottom: 30px;
     }
 
-    &__info {}
+    &__info {
+    }
 }
 
-.title {}
+.title {
+}
 
-.row {}
+.row {
+}
 
-.coltw-3 {}
+.coltw-3 {
+}
 
 .stile-info {
     &__title {
@@ -876,12 +941,14 @@ body {
         line-height: 130%;
     }
 
-    &__description {}
+    &__description {
+    }
 }
 
 //section inst
 .site {
-    &__instagram {}
+    &__instagram {
+    }
 }
 
 .inst {
@@ -889,7 +956,8 @@ body {
         margin-bottom: 40px;
     }
 
-    &__content {}
+    &__content {
+    }
 
     &__card {
         position: relative;
@@ -908,7 +976,7 @@ body {
         transform: translate(-50%, -50%);
     }
 
-    &__card:hover>a {
+    &__card:hover > a {
         opacity: 1;
         height: auto;
     }
@@ -918,11 +986,14 @@ body {
     }
 }
 
-.title {}
+.title {
+}
 
-.row {}
+.row {
+}
 
-.coltw-4 {}
+.coltw-4 {
+}
 
 //Filtr
 
@@ -971,13 +1042,17 @@ body {
         margin-bottom: 40px;
     }
 
-    &__map {}
+    &__map {
+    }
 
-    &__information {}
+    &__information {
+    }
 
-    &__information-address {}
+    &__information-address {
+    }
 
-    &__information-manufacture {}
+    &__information-manufacture {
+    }
 
     &__information-shop {
         margin-bottom: 95px;
@@ -1023,7 +1098,8 @@ body {
         margin-bottom: 15px;
     }
 
-    &__content {}
+    &__content {
+    }
 }
 
 .manufacture {
@@ -1032,7 +1108,8 @@ body {
         margin-bottom: 10px;
     }
 
-    &__content {}
+    &__content {
+    }
 }
 
 .shop {
@@ -1041,26 +1118,29 @@ body {
         margin-bottom: 10px;
     }
 
-    &__content {}
+    &__content {
+    }
 }
 
 //Answers
 
 .answers {
-
-    &__sections{
+    &__sections {
         margin-bottom: 70px;
     }
 
-    &__left-section {}
+    &__left-section {
+    }
 
     &__title {
         margin-bottom: 30px;
     }
 
-    &__question {}
+    &__question {
+    }
 
-    &__right-section {}
+    &__right-section {
+    }
 
     &__video {
         margin-bottom: 30px;
@@ -1078,27 +1158,24 @@ body {
 }
 
 .our-question {
-
     &__title {
         margin-bottom: 40px;
     }
 
     &__form {
-
     }
 
     &__form-text-fields {
-
     }
 
-    &__form-text-field{
+    &__form-text-field {
         display: block;
         width: 100%;
-        padding:18px 12px;
+        padding: 18px 12px;
         border: 1px solid #000000;
     }
 
-    &__form-text-field:not(:last-child){
+    &__form-text-field:not(:last-child) {
         margin-bottom: 10px;
     }
 
@@ -1109,13 +1186,12 @@ body {
         display: block;
         width: 100%;
         height: 100%;
-        padding:18px 12px;
+        padding: 18px 12px;
     }
 }
 
-
-
 .question {
+<<<<<<< HEAD
 
     margin-bottom: 20px;
 
@@ -1124,10 +1200,14 @@ body {
         max-height: 500px;
         transition: all 0.2s ease-in;
     }
+=======
+    margin-bottom: 30px;
+>>>>>>> 0655f3390761eb4faac5a9e268759e18b023eee1
 
     &__name {
         font-weight: bold;
         font-size: 18px;
+<<<<<<< HEAD
         cursor: pointer;
         // margin-bottom: 15px;
 
@@ -1139,9 +1219,14 @@ body {
         padding: 0px 0;
         cursor: default;
         transition: all 0.2s ease;
+=======
+        margin-bottom: 15px;
+    }
+
+    &__response {
+>>>>>>> 0655f3390761eb4faac5a9e268759e18b023eee1
     }
 }
-
 
 //Bread-ctubs
 
@@ -1154,7 +1239,8 @@ body {
 .category {
     margin-bottom: 100px;
 
-    &__title {}
+    &__title {
+    }
 
     &__elements {
         display: flex;
@@ -1361,13 +1447,13 @@ body {
     right: 0;
 }
 
-.button{
+.button {
     text-align: center;
     padding: 12px 0;
     width: 100%;
 }
 
-.button--black{
+.button--black {
     background-color: #000000;
     color: #ffffff;
 }
