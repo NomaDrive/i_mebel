@@ -999,6 +999,7 @@ body {
 
 .filtr {
     margin-bottom: 45px;
+    margin-top: 40px;
 
     &__elements {
         display: flex;
@@ -1269,9 +1270,6 @@ body {
     }
 
     &__elements {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -20px;
     }
 
     &__element {
@@ -1315,7 +1313,6 @@ body {
     margin-bottom: 75px;
 
     &__title {
-        text-align: right;
     }
 
     &__item {
@@ -1406,14 +1403,6 @@ body {
         display: flex;
         justify-content: flex-end;
     }
-
-    &__element-sale-price {
-        margin-right: 15px;
-    }
-
-    &__element-simple-price {
-        font-weight: bold;
-    }
 }
 
 //Footer
@@ -1457,6 +1446,21 @@ body {
 
 .current {
     font-weight: bold;
+}
+
+//Price
+
+.price{
+
+    s{
+        margin-right: 15px;
+    }
+
+    span{
+        font-weight: bold;
+    }
+
+
 }
 
 //Title
