@@ -125,16 +125,6 @@ body {
     font-weight: bold;
 }
 
-//White-btn
-.white-btn {
-    position: absolute;
-    bottom: 0;
-    right: 20px;
-    text-align: center;
-    padding: 10px 0;
-    background-color: #ffffff;
-    font-weight: bold;
-}
 
 //Header
 
@@ -1407,6 +1397,7 @@ body {
             width: min-content;
             border: 1px solid #000000;
             background-color: #ffffff;
+            cursor: pointer;
         }
 
         .btn-prev,
@@ -1427,14 +1418,33 @@ body {
     }
 
     &__element {
-        position: relative;
         margin-bottom: 35px;
+        cursor: pointer;
+    }
+
+    &__element:hover &__element-button  {
+        right: 0;
+        opacity: 1;
+        transition: all 0.3s ease-out ;
+        z-index: 1;
+    }
+
+    &__element-img{
+        position: relative;
     }
 
     &__element-button {
         min-width: 149px;
-        padding: 15px 0;
-        bottom: 45px;
+        padding: 10px 0;
+        position: absolute;
+        bottom: 0;
+        right: -80px;
+        opacity: 0;
+        text-align: center;
+        background-color: #ffffff;
+        font-weight: bold;
+        transition: opacity,right 0.3s ease-out ;
+        z-index: -1;
     }
 
     &__element-description {
