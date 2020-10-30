@@ -213,12 +213,6 @@ body {
   margin: 0 auto;
 }
 
-.title {
-  font-size: 40px;
-  line-height: 150%;
-  font-weight: bold;
-}
-
 .white-btn {
   position: absolute;
   bottom: 0;
@@ -340,27 +334,34 @@ body {
 }
 
 .aside {
+  background: #ffffff;
   position: relative;
+  z-index: 100;
 }
 
 .aside__nav {
-  padding-top: 45px;
+  padding-top: 37px;
+  z-index: 100;
 }
 
 .aside__item:not(:last-child) {
-  margin-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.aside__item:hover > .submenu,
-.aside .sub-menu:hover {
+.aside__item:last-child {
+  padding-top: 8px;
+}
+
+.aside__item:hover .submenu {
   width: auto;
-  visibility: visible;
-  height: calc(100% + 74px);
+  height: 100%;
   opacity: 1;
   background: #f5f5f5;
-  -webkit-transition: all 200ms linear 0ms;
-  transition: all 200ms linear 0ms;
-  z-index: 10000;
+  left: 130px;
+  -webkit-transition: left 200ms ease-out 0ms;
+  transition: left 200ms ease-out 0ms;
+  z-index: 10;
 }
 
 .aside__submenu {
@@ -370,7 +371,9 @@ body {
   width: 0;
   position: absolute;
   top: -74px;
-  left: 130px;
+  left: 80px;
+  -webkit-transition: left 200ms ease-in 0ms;
+  transition: left 200ms ease-in 0ms;
 }
 
 .aside a {
@@ -378,7 +381,7 @@ body {
 }
 
 .submenu__title {
-  margin: 30px 80px 70px 15px;
+  margin: 22px 80px 70px 15px;
   font-weight: bold;
 }
 
@@ -387,7 +390,8 @@ body {
 }
 
 .submenu__item:not(:last-child) {
-  margin-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .site__preview {
@@ -1057,8 +1061,9 @@ body {
 .our-question__form-text-field {
   display: block;
   width: 100%;
-  padding: 18px 12px;
+  padding: 12px 18px;
   border: 1px solid #000000;
+  line-height: 16px;
 }
 
 .our-question__form-text-field:not(:last-child) {
@@ -1311,6 +1316,7 @@ body {
 .title {
   font-size: 40px;
   line-height: 44px;
+  font-weight: bold;
 }
 
 .count {
