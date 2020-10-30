@@ -213,16 +213,6 @@ body {
   margin: 0 auto;
 }
 
-.white-btn {
-  position: absolute;
-  bottom: 0;
-  right: 20px;
-  text-align: center;
-  padding: 10px 0;
-  background-color: #ffffff;
-  font-weight: bold;
-}
-
 .header {
   padding-top: 27px;
   padding-bottom: 27px;
@@ -1207,6 +1197,7 @@ body {
   width: min-content;
   border: 1px solid #000000;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 .under-category__content-toggler .btn-prev,
@@ -1230,14 +1221,35 @@ body {
 }
 
 .under-category__element {
-  position: relative;
   margin-bottom: 35px;
+  cursor: pointer;
+}
+
+.under-category__element:hover .under-category__element-button {
+  right: 0;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 1;
+}
+
+.under-category__element-img {
+  position: relative;
 }
 
 .under-category__element-button {
   min-width: 149px;
-  padding: 15px 0;
-  bottom: 45px;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  right: -80px;
+  opacity: 0;
+  text-align: center;
+  background-color: #ffffff;
+  font-weight: bold;
+  -webkit-transition: opacity, right 0.3s ease-out;
+  transition: opacity, right 0.3s ease-out;
+  z-index: -1;
 }
 
 .under-category__element-description {
