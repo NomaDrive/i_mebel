@@ -5,14 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.maskedinput.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/slick.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -162,29 +157,39 @@
           </aside>
 
           <main class="site__content main-page content col-12">
-            <section class="site__preview preview row">
-              <div class="preview__container  col-12">
-                <h1 class="preview__title titles">Корпусная мебель на заказ<br>по цене от производителя</h1>
-                <div class="preview__slideshow">
-                  <div class="preview__slider slider-preview">
-                    <div class="slider-preview__item">
+
+            <section class="site__preview preview ">
+              <h1 class="preview__title titles">Корпусная мебель на заказ<br>по цене от производителя</h1>
+              <div class="preview__slider preview-slider swiper-container">
+                <div class="preview-slider__wrapper swiper-wrapper">
+                  <div class="preview-slider__item swiper-slide">
+                    <div class="preview-slider__img">
                       <img src="img/froze-1.png" alt="">
                     </div>
-                    <div class="slider-preview__item">
-                      <img src="img/froze-2.jpg" alt="">
-                    </div>
-                    <div class="slider-preview__item">
-                      <img src="img/froze-3.jpg" alt="">
+                  </div>
+                  <div class="preview-slider__item swiper-slide">
+                    <div class="preview-slider__img">
+                      <img src="img/froze-2.png" alt="">
                     </div>
                   </div>
-                  <div class="preview__froze froze">
-                    <p class="froze__title">Бесплатный замер, дизайн-проект,<br>выбор материала и заключение
-                      <br>договора у вас дома</p>
-                    <p class="froze__description">Создаём качественную мебель<br>по ценам от производителя</p>
-                    <div class="froze__button buttons">Заказать замер</div>
+                  <div class="preview-slider__item swiper-slide">
+                    <div class="preview-slider__img">
+                      <img src="img/froze-1.png" alt="">
+                    </div>
                   </div>
                 </div>
+                <div class="preview__froze froze">
+                  <p class="froze__title">Бесплатный замер, дизайн-проект,<br>выбор материала и заключение
+                    <br>договора у вас дома</p>
+                  <p class="froze__description">Создаём качественную мебель<br>по ценам от производителя</p>
+                  <div class="froze__button buttons">Заказать замер</div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
               </div>
+
+
             </section>
 
 
@@ -585,6 +590,14 @@
     </div>
 
   </div>
+
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

@@ -351,7 +351,43 @@ body {
         top: 50%;
         left: 95px;
         transform: translate(0, -50%);
+        z-index: 10;
     }
+    .buttons {
+        border: none;
+    }
+}
+.swiper-button-next {
+    right: 0;
+}
+.swiper-button-prev {
+    right: 47px;
+    left: auto;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    width: 47px;
+    height: 40px;
+    top: auto;
+    bottom: 0px;
+}
+.swiper-button-prev::after {
+    content: "";
+    width: 47px;
+    height: 40px;
+    background: url(../img/arrow-slider.svg) no-repeat center;
+    margin: auto 0;
+    background-color: #ffffff;
+}
+.swiper-button-next::after {
+    content: "";
+    width: 47px;
+    height: 40px;
+    background: url(../img/arrow-slider.svg) no-repeat center;
+    transform: scale(-1);
+    margin: auto 0;
+    background-color: #ffffff;
 }
 
 .slider-preview {
