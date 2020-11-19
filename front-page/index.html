@@ -5,14 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.maskedinput.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/slick.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -162,29 +157,38 @@
           </aside>
 
           <main class="site__content main-page content col-12">
-            <section class="site__preview preview row">
-              <div class="preview__container  col-12">
-                <h1 class="preview__title titles">Корпусная мебель на заказ<br>по цене от производителя</h1>
-                <div class="preview__slideshow">
-                  <div class="preview__slider slider-preview">
-                    <div class="slider-preview__item">
+
+            <section class="site__preview preview ">
+              <h1 class="preview__title titles">Корпусная мебель на заказ<br>по цене от производителя</h1>
+              <div class="preview__slider preview-slider swiper-container">
+                <div class="preview-slider__wrapper swiper-wrapper">
+                  <div class="preview-slider__item swiper-slide">
+                    <div class="preview-slider__img">
                       <img src="img/froze-1.png" alt="">
                     </div>
-                    <div class="slider-preview__item">
-                      <img src="img/froze-2.jpg" alt="">
-                    </div>
-                    <div class="slider-preview__item">
-                      <img src="img/froze-3.jpg" alt="">
+                  </div>
+                  <div class="preview-slider__item swiper-slide">
+                    <div class="preview-slider__img">
+                      <img src="img/froze-2.png" alt="">
                     </div>
                   </div>
-                  <div class="preview__froze froze">
-                    <p class="froze__title">Бесплатный замер, дизайн-проект,<br>выбор материала и заключение
-                      <br>договора у вас дома</p>
-                    <p class="froze__description">Создаём качественную мебель<br>по ценам от производителя</p>
-                    <div class="froze__button buttons">Заказать замер</div>
+                  <div class="preview-slider__item swiper-slide">
+                    <div class="preview-slider__img">
+                      <img src="img/froze-1.png" alt="">
+                    </div>
                   </div>
                 </div>
+                <div class="preview__froze froze">
+                  <p class="froze__title">Бесплатный замер, дизайн-проект,<br>выбор материала и заключение
+                    <br>договора у вас дома</p>
+                  <p class="froze__description">Создаём качественную мебель<br>по ценам от производителя</p>
+                  <div class="froze__button buttons">Заказать замер</div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
               </div>
+
             </section>
 
 
@@ -202,16 +206,26 @@
 
               <div class="product-present__main row">
                 <div class="product-present__slidshow coltw-8">
-                  <div class="product-present__slider slider-product-present ">
-                    <div class="slider-product-present__item">
-                      <img src="img/kitchen-1.jpg" alt="">
+                  <div class="product-present__slider slider-product-present swiper-container">
+                    <div class="slider-product-present__wrapper swiper-wrapper">
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/kitchen-1.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/hallway12.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/kitchen-1.jpg" alt="">
+                        </div>
+                      </div>
                     </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/kitchen-1.jpg" alt="">
-                    </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/kitchen-1.jpg" alt="">
-                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
                 <div class="product-present__order order coltw-4">
@@ -235,11 +249,16 @@
             <section class="site__dop-purchase dop-purchase row">
               <h2 class="dop-purchase__title coltw-3">С кухнями покупают</h2>
               <div class="dop-purchase__card coltw-5">
-                <div class="dop-purchase__slider slider-purchase">
-                  <div class="slider-purchase__item"><img src="img/hallway-slide.jpg" alt=""> </div>
-                  <div class="slider-purchase__item"><img src="img/hallway-slide.jpg" alt=""></div>
-                  <div class="slider-purchase__item"><img src="img/hallway-slide.jpg" alt=""></div>
+                <div class="dop-purchase__slider slider-purchase swiper-container">
+                  <div class="slider-purchase__wrapper swiper-wrapper">
+                    <div class="slider-purchase__item swiper-slide"><img src="img/hallway-slide.jpg" alt=""> </div>
+                    <div class="slider-purchase__item swiper-slide"><img src="img/hallway-slide.jpg" alt=""></div>
+                    <div class="slider-purchase__item swiper-slide"><img src="img/hallway-slide.jpg" alt=""></div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
                 </div>
+
                 <div class="dop-purchase__info">
                   <div class="dop-purchase__description ">
                     <div class="dop-purchase__description-title">Прихожие</div>
@@ -257,10 +276,14 @@
                 </div>
               </div>
               <div class="dop-purchase__card coltw-4">
-                <div class="dop-purchase__slider slider-purchase">
-                  <div class="slider-purchase__item"><img src="img/hallway-slide.jpg" alt=""> </div>
-                  <div class="slider-purchase__item"><img src="img/hallway-slide.jpg" alt=""></div>
-                  <div class="slider-purchase__item"><img src="img/hallway-slide.jpg" alt=""></div>
+                <div class="dop-purchase__slider slider-purchase slider-purchase swiper-container">
+                  <div class="slider-purchase__wrapper swiper-wrapper">
+                    <div class="slider-purchase__item swiper-slide"><img src="img/hallway-slide.jpg" alt=""> </div>
+                    <div class="slider-purchase__item swiper-slide"><img src="img/hallway-slide.jpg" alt=""></div>
+                    <div class="slider-purchase__item swiper-slide"><img src="img/hallway-slide.jpg" alt=""></div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
                 </div>
                 <div class="dop-purchase__info">
                   <div class="row">
@@ -284,16 +307,26 @@
             <section class="site__cupboard-present product-present">
               <div class="product-present__main row">
                 <div class="product-present__slidshow coltw-9">
-                  <div class="product-present__slider slider-product-present ">
-                    <div class="slider-product-present__item">
-                      <img src="img/cupboard-slider.jpg" alt="">
+                  <div class="product-present__slider slider-product-present swiper-container">
+                    <div class="slider-product-present__wrapper swiper-wrapper">
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/cupboard-slider.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/hallway12.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/kitchen-1.jpg" alt="">
+                        </div>
+                      </div>
                     </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/cupboard-slider.jpg" alt="">
-                    </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/cupboard-slider.jpg" alt="">
-                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
                 <div class="product-present__order order coltw-3">
@@ -319,9 +352,16 @@
               <div class="furn-day__description">Подборка самых покупаемой <br>мебели за последние 30 дней</div>
               <div class="furn-day__slideshow row">
                 <div class="furn-day__card coltw-3">
-                  <div class="furn-day__slider slider-furn-day">
-                    <div class="slider-furn-day__item"> <img src="img/curbstone-slider.jpg" alt=""> </div>
-                    <div class="slider-furn-day__item"><img src="img/curbstone-slider.jpg" alt=""> </div>
+                  <div class="furn-day__slider slider-furn-day swiper-container">
+                    <div class="slider-furn-day__wrapper swiper-wrapper">
+                      <div class="slider-furn-day__item swiper-slide"> <img src="img/curbstone-slider.jpg" alt="">
+                      </div>
+                      <div class="slider-furn-day__item swiper-slide">
+                        <img src="img/curbstone-slider.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                   <div class="furn-day__info info-furn">
                     <div class="info-furn__title">Тумбы</div>
@@ -332,10 +372,19 @@
                   </div>
                 </div>
                 <div class="furn-day__card coltw-5">
-                  <div class="furn-day__slider slider-furn-day">
-                    <div class="slider-furn-day__item"> <img src="img/hallway-slide.jpg" alt=""> </div>
-                    <div class="slider-furn-day__item"><img src="img/hallway-slide.jpg" alt=""> </div>
+
+                  <div class="furn-day__slider slider-furn-day swiper-container">
+                    <div class="slider-furn-day__wrapper swiper-wrapper">
+                      <div class="slider-furn-day__item swiper-slide"> <img src="img/curbstone-slider.jpg" alt="">
+                      </div>
+                      <div class="slider-furn-day__item swiper-slide">
+                        <img src="img/curbstone-slider.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
+
                   <div class="furn-day__info info-furn">
                     <div class="info-furn__title">Прихожие</div>
                     <div class="info-furn__price price">
@@ -345,10 +394,18 @@
                   </div>
                 </div>
                 <div class="furn-day__card coltw-4">
-                  <div class="furn-day__slider slider-furn-day">
-                    <div class="slider-furn-day__item"> <img src="img/hallway-slide.jpg" alt=""> </div>
-                    <div class="slider-furn-day__item"><img src="img/hallway-slide.jpg" alt=""> </div>
+                  <div class="furn-day__slider slider-furn-day swiper-container">
+                    <div class="slider-furn-day__wrapper swiper-wrapper">
+                      <div class="slider-furn-day__item swiper-slide"> <img src="img/curbstone-slider.jpg" alt="">
+                      </div>
+                      <div class="slider-furn-day__item swiper-slide">
+                        <img src="img/curbstone-slider.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
+
                   <div class="furn-day__info info-furn">
                     <div class="info-furn__title">Шкаф</div>
                     <div class="info-furn__price price">
@@ -371,16 +428,26 @@
               </div>
               <div class="product-present__main row">
                 <div class="product-present__slidshow coltw-8">
-                  <div class="product-present__slider slider-product-present ">
-                    <div class="slider-product-present__item">
-                      <img src="img/kitchen-1.jpg" alt="">
+                  <div class="product-present__slider slider-product-present swiper-container">
+                    <div class="slider-product-present__wrapper swiper-wrapper">
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/kitchen-1.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/hallway12.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/kitchen-1.jpg" alt="">
+                        </div>
+                      </div>
                     </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/kitchen-1.jpg" alt="">
-                    </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/kitchen-1.jpg" alt="">
-                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
                 <div class="product-present__order order coltw-4">
@@ -428,16 +495,26 @@
             <section class="site__bestseller product-present">
               <div class="product-present__main row">
                 <div class="product-present__slidshow coltw-9">
-                  <div class="product-present__slider slider-product-present ">
-                    <div class="slider-product-present__item">
-                      <img src="img/cupboard-slider.jpg" alt="">
+                  <div class="product-present__slider slider-product-present swiper-container">
+                    <div class="slider-product-present__wrapper swiper-wrapper">
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/cupboard-slider.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/hallway12.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="slider-product-present__item swiper-slide">
+                        <div class="slider-product-present__img">
+                          <img src="img/kitchen-1.jpg" alt="">
+                        </div>
+                      </div>
                     </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/cupboard-slider.jpg" alt="">
-                    </div>
-                    <div class="slider-product-present__item">
-                      <img src="img/cupboard-slider.jpg" alt="">
-                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
 
@@ -456,26 +533,79 @@
             </section>
 
             <section class="site__playroom playroom">
-              <h2 class="playroom__title title">Детские</h2>
-              <div class="playroom__slider slider-playroom">
-                <div class="slider-playroom__item">
-                  <img src="img/playroom-slider.jpg" alt="">
+              <div class="slider-cards swiper-container">
+                <div class="slider-cards__wrapper swiper-wrapper">
+                  <div class="slider-cards__item swiper-slide">
+                    <h2 class="playroom__title title">Детские</h2>
+                    <div class="playroom__slider slider-product-present swiper-container">
+                      <div class="slider-product-present__wrapper swiper-wrapper">
+                        <div class="slider-product-present__item swiper-slide">
+                          <div class="slider-product-present__img">
+                            <img src="img/playroom-slider.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="slider-product-present__item swiper-slide">
+                          <div class="slider-product-present__img">
+                            <img src="img/hallway12.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="slider-product-present__item swiper-slide">
+                          <div class="slider-product-present__img">
+                            <img src="img/kitchen-1.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="playroom__info">
+                      <div class="playroom__description playroom-description">
+                        <h3 class="playroom-description__offer">Создайте сказку вместе с нами!</h3>
+                        <p class="playroom-description__offer-info">В ожидании ребенка?
+                          Закажите детскую прямо сейчас!</p>
+                      </div>
+                      <div class="playroom__button buttons">Заказать</div>
+                    </div>
+                  </div>
+                  <div class="slider-cards__item swiper-slide">
+                    <h2 class="playroom__title title">Детские</h2>
+                    <div class="playroom__slider slider-product-present swiper-container">
+                      <div class="slider-product-present__wrapper swiper-wrapper">
+                        <div class="slider-product-present__item swiper-slide">
+                          <div class="slider-product-present__img">
+                            <img src="img/playroom-slider.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="slider-product-present__item swiper-slide">
+                          <div class="slider-product-present__img">
+                            <img src="img/hallway12.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="slider-product-present__item swiper-slide">
+                          <div class="slider-product-present__img">
+                            <img src="img/kitchen-1.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-button-prev "></div>
+                      <div class="swiper-button-next "></div>
+                    </div>
+                    <div class="playroom__info">
+                      <div class="playroom__description playroom-description">
+                        <h3 class="playroom-description__offer">Создайте сказку вместе с нами!</h3>
+                        <p class="playroom-description__offer-info">В ожидании ребенка?
+                          Закажите детскую прямо сейчас!</p>
+                      </div>
+                      <div class="playroom__button buttons">Заказать</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="slider-playroom__item">
-                  <img src="img/froze-2.jpg" alt="">
-                </div>
-                <div class="slider-playroom__item">
-                  <img src="img/froze-3.jpg" alt="">
-                </div>
+
+                <div class="swiper-button-prev sl-cd-pr"></div>
+                <div class="swiper-button-next sl-cd-nxt"></div>
+
               </div>
-              <div class="playroom__info">
-                <div class="playroom__description playroom-description">
-                  <h3 class="playroom-description__offer">Создайте сказку вместе с нами!</h3>
-                  <p class="playroom-description__offer-info">В ожидании ребенка?
-                    Закажите детскую прямо сейчас!</p>
-                </div>
-                <div class="playroom__button buttons">Заказать</div>
-              </div>
+
             </section>
 
             <section class="site__style style">
@@ -585,6 +715,14 @@
     </div>
 
   </div>
+
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
