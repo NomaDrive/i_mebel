@@ -358,25 +358,25 @@ body {
     }
 }
 .slider-cards {
-    padding-top: 80px;
 }
 
-.swiper-button-next.sl-cd-nxt {
+.sl-cd-nxt {
     right: auto;
     left: 46px;
 }
-.swiper-button-prev.sl-cd-pr {
+.sl-cd-pr {
     left: 0px;
     right: auto;
 }
-.swiper-button-prev.sl-cd-pr,
-.swiper-button-next.sl-cd-nxt {
+.sl-cd-pr,
+.sl-cd-nxt {
     position: absolute;
     width: 47px;
     height: 40px;
     top: 20px;
     bottom: auto;
     z-index: 12;
+    cursor: pointer;
 }
 
 .swiper-button-next {
@@ -394,7 +394,9 @@ body {
     top: auto;
     bottom: 0px;
 }
+.sl-cd-pr::after,
 .swiper-button-prev::after {
+    position: absolute;
     content: "";
     width: 47px;
     height: 40px;
@@ -402,7 +404,9 @@ body {
     margin: auto 0;
     background-color: #ffffff;
 }
+.sl-cd-nxt::after,
 .swiper-button-next::after {
+    position: absolute;
     content: "";
     width: 47px;
     height: 40px;
@@ -410,6 +414,10 @@ body {
     transform: scale(-1);
     margin: auto 0;
     background-color: #ffffff;
+}
+.sl-cd-pr::after,
+.sl-cd-nxt::after {
+    background-color: #f5f5f5;
 }
 
 .slider-preview {
@@ -893,6 +901,8 @@ body {
 .site {
     &__playroom {
         margin-bottom: 80px;
+        padding-top: 80px;
+        position: relative;
     }
 }
 
