@@ -977,20 +977,103 @@ body {
   width: 100%;
 }
 
-.filtr {
-  margin-bottom: 45px;
-  margin-top: 40px;
-}
-
-.filtr__elements {
+.filtrs__elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  max-height: 30px;
+  overflow: hidden;
 }
 
-.filtr__element, .filtr__button-open {
+.filtrs__elements.open {
+  max-height: 200px;
+}
+
+.filtrs__elements.open .filtrs__element:nth-child(n+6) {
+  display: block;
+}
+
+.filtrs__element {
+  margin: 0 40px 35px 0;
+  padding-bottom: 12px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 148px;
+          flex: 0 1 148px;
+  position: relative;
+  cursor: pointer;
+}
+
+.filtrs__element::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: -40px;
+  height: 1px;
+  background: #CCCCCC;
+}
+
+.filtrs__elements :last-of-type::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: -0px;
+  height: 1px;
+  background: #CCCCCC;
+}
+
+.filtrs__element::after {
+  content: url(../img/arrow-slider.svg);
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.filtrs__element:nth-child(6n) {
+  margin-right: 0;
+}
+
+.filtrs__element:nth-child(n+6) {
+  display: none;
+}
+
+.filtrs__button-open {
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.tags {
+  margin-bottom: 45px;
+  margin-top: 40px;
+}
+
+.tags__elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 28px;
+  overflow: hidden;
+}
+
+.tags__elements.open {
+  max-height: 200px;
+}
+
+.tags__elements.open .tags__element:nth-child(n+6) {
+  display: block;
+}
+
+.tags__element, .tags__button-open {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 148px;
           flex: 0 1 148px;
@@ -998,21 +1081,28 @@ body {
   text-align: center;
 }
 
-.filtr__element {
+.tags__element {
   background-color: #f5f5f5;
   margin: 0px 40px 10px 0px;
+  display: block;
 }
 
-.filtr__button-open {
+.tags__element:nth-child(n+6) {
+  display: none;
+}
+
+.tags__button-open {
   background-color: #ffffff;
   margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: auto;
 }
 
-.filtr__element:nth-child(6n) {
+.tags__element:nth-child(6n) {
   margin-right: 0;
 }
 
-.filtr__link {
+.tags__link {
   color: inherit;
   font-weight: 400;
 }

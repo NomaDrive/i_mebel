@@ -151,8 +151,7 @@ body {
         }
     }
 
-    &__city {
-    }
+    &__city {}
 
     &__city-name {
         display: flex;
@@ -169,8 +168,7 @@ body {
         margin: auto 0;
     }
 
-    &__menu {
-    }
+    &__menu {}
 
     &__menu-list {
         display: flex;
@@ -186,8 +184,7 @@ body {
         margin-right: 25px;
     }
 
-    &__search {
-    }
+    &__search {}
 
     .search-header {
         display: flex;
@@ -224,11 +221,9 @@ body {
     }
 }
 
-.col {
-}
+.col {}
 
-.col-2 {
-}
+.col-2 {}
 
 //main
 
@@ -256,19 +251,17 @@ body {
         z-index: 100;
     }
 
-    &__list {
-    }
+    &__list {}
 
-    &__item {
-    }
+    &__item {}
 
-    &__item:hover {
-    }
+    &__item:hover {}
 
     &__item:not(:last-child) {
         padding-top: 8px;
         padding-bottom: 8px;
     }
+
     &__item:last-child {
         padding-top: 8px;
     }
@@ -305,8 +298,7 @@ body {
         font-weight: bold;
     }
 
-    &__list {
-    }
+    &__list {}
 
     &__item {
         padding-left: 15px;
@@ -319,8 +311,7 @@ body {
 }
 
 .content {
-    &__container {
-    }
+    &__container {}
 }
 
 .site {
@@ -343,8 +334,7 @@ body {
         position: relative;
     }
 
-    &__slider {
-    }
+    &__slider {}
 
     &__froze {
         position: absolute;
@@ -423,8 +413,7 @@ body {
 .slider-preview {
     position: relative;
 
-    &__item {
-    }
+    &__item {}
 }
 .swiper-container img {
     width: 100%;
@@ -512,8 +501,7 @@ body {
 }
 
 .product-present {
-    &__info {
-    }
+    &__info {}
 
     &__title {
         font-weight: bold;
@@ -533,22 +521,17 @@ body {
         position: relative;
     }
 
-    &__order {
-    }
+    &__order {}
 }
 
-.row {
-}
+.row {}
 
-.coltw-8 {
-}
+.coltw-8 {}
 
-.titles {
-}
+.titles {}
 
 .slider-product-present {
-    &__item {
-    }
+    &__item {}
 }
 
 .product-present__main {
@@ -584,8 +567,7 @@ body {
         margin-bottom: auto;
     }
 
-    &__price {
-    }
+    &__price {}
 
     &__button {
         border: 1px solid #000000;
@@ -593,22 +575,19 @@ body {
     }
 }
 
-.coltw-4 {
-}
+.coltw-4 {}
 
 .price {
     margin-bottom: 20px;
 
-    &__old {
-    }
+    &__old {}
 
     &__new {
         margin-right: 15px;
     }
 }
 
-.buttons {
-}
+.buttons {}
 
 //Section purchase
 .dop-purchase {
@@ -620,8 +599,7 @@ body {
         line-height: 44px;
     }
 
-    &__card {
-    }
+    &__card {}
 
     &__slider {
         margin-bottom: 30px;
@@ -633,8 +611,7 @@ body {
         align-items: flex-end;
     }
 
-    &__description {
-    }
+    &__description {}
 
     &__description-title {
         font-weight: bold;
@@ -646,8 +623,7 @@ body {
         line-height: 18px;
     }
 
-    &__order {
-    }
+    &__order {}
 
     &__price {
         line-height: 130%;
@@ -661,29 +637,22 @@ body {
     }
 }
 
-.row {
-}
+.row {}
 
-.coltw-3 {
-}
+.coltw-3 {}
 
-.coltw-5 {
-}
+.coltw-5 {}
 
 .slider-purchase {
-    &__item {
-    }
+    &__item {}
 }
 
-.coltw-4 {
-}
+.coltw-4 {}
 
 .price {
-    &__new {
-    }
+    &__new {}
 
-    &__old {
-    }
+    &__old {}
 }
 
 //section cupboard
@@ -694,6 +663,7 @@ body {
         order: 1;
     }
 }
+
 .product-present__title {
     line-height: 44px;
 }
@@ -716,33 +686,25 @@ body {
         margin-bottom: 36px;
     }
 
-    &__slideshow {
-    }
+    &__slideshow {}
 
-    &__card {
-    }
+    &__card {}
 
-    &__slider {
-    }
+    &__slider {}
 
-    &__info {
-    }
+    &__info {}
 }
 
-.title {
-}
+.title {}
 
-.row {
-}
+.row {}
 
-.coltw-3 {
-}
+.coltw-3 {}
 
 .slider-furn-day {
     margin-bottom: 30px;
 
-    &__item {
-    }
+    &__item {}
 }
 
 .info-furn {
@@ -771,8 +733,7 @@ body {
     }
 }
 
-.coltw-5 {
-}
+.coltw-5 {}
 
 //site-lounge
 
@@ -789,8 +750,7 @@ body {
 }
 
 .cost-calc {
-    &__sec {
-    }
+    &__sec {}
 
     &__title {
         margin-bottom: 25px;
@@ -816,14 +776,11 @@ body {
     }
 }
 
-.row {
-}
+.row {}
 
-.coltw-3 {
-}
+.coltw-3 {}
 
-.title {
-}
+.title {}
 
 .calc-but {
     padding: 12px;
@@ -833,8 +790,7 @@ body {
     cursor: pointer;
 }
 
-.coltw-5 {
-}
+.coltw-5 {}
 
 .call-worker {
     display: flex;
@@ -857,17 +813,16 @@ body {
         margin-top: auto;
     }
 
-    &__button {
-    }
+    &__button {}
 }
 
-.coltw-4 {
-}
+.coltw-4 {}
 
 //bestseller
 .site__bestseller {
     margin-bottom: 85px;
 }
+
 .site__bestseller .product-present {
     &__order {
         order: -1;
@@ -875,26 +830,22 @@ body {
         flex-direction: column;
     }
 
-    &__title {
-    }
+    &__title {}
 }
+
 .site__bestseller .order {
-    &__title {
-    }
+    &__title {}
 
     &__title-decription {
         flex: 1 1 auto;
     }
 
-    &__button {
-    }
+    &__button {}
 }
 
-.coltw-3 {
-}
+.coltw-3 {}
 
-.buttons {
-}
+.buttons {}
 
 //playroom
 
@@ -915,8 +866,7 @@ body {
         margin-bottom: 30px;
     }
 
-    &__description {
-    }
+    &__description {}
 
     &__info {
         display: flex;
@@ -930,12 +880,10 @@ body {
     }
 }
 
-.title {
-}
+.title {}
 
 .slider-playroom {
-    &__item {
-    }
+    &__item {}
 }
 
 .playroom-description {
@@ -946,12 +894,10 @@ body {
         margin-bottom: 15px;
     }
 
-    &__offer-info {
-    }
+    &__offer-info {}
 }
 
-.buttons {
-}
+.buttons {}
 
 //section-style
 .site {
@@ -971,14 +917,11 @@ body {
         margin-bottom: 40px;
     }
 
-    &__more {
-    }
+    &__more {}
 
-    &__main {
-    }
+    &__main {}
 
-    &__card {
-    }
+    &__card {}
 
     &__img {
         background: url(../img/curbstone-slider.jpg);
@@ -986,18 +929,14 @@ body {
         margin-bottom: 30px;
     }
 
-    &__info {
-    }
+    &__info {}
 }
 
-.title {
-}
+.title {}
 
-.row {
-}
+.row {}
 
-.coltw-3 {
-}
+.coltw-3 {}
 
 .stile-info {
     &__title {
@@ -1007,14 +946,12 @@ body {
         line-height: 130%;
     }
 
-    &__description {
-    }
+    &__description {}
 }
 
 //section inst
 .site {
-    &__instagram {
-    }
+    &__instagram {}
 }
 
 .inst {
@@ -1022,8 +959,7 @@ body {
         margin-bottom: 40px;
     }
 
-    &__content {
-    }
+    &__content {}
 
     &__card {
         position: relative;
@@ -1042,7 +978,7 @@ body {
         transform: translate(-50%, -50%);
     }
 
-    &__card:hover > a {
+    &__card:hover>a {
         opacity: 1;
         height: auto;
     }
@@ -1052,14 +988,11 @@ body {
     }
 }
 
-.title {
-}
+.title {}
 
-.row {
-}
+.row {}
 
-.coltw-4 {
-}
+.coltw-4 {}
 
 //tovar
 
@@ -1069,8 +1002,8 @@ body {
 
 .magazine-cat {
     margin-bottom: 90px;
-    &__content {
-    }
+
+    &__content {}
 
     &__title {
         margin-bottom: 30px;
@@ -1092,41 +1025,124 @@ body {
         width: 100%;
     }
 }
-.row {
-}
-.coltw-4 {
-}
-.title {
-}
-.sub-title {
-}
+
+.row {}
+
+.coltw-4 {}
+
+.title {}
+
+.sub-title {}
+
 .our-question {
-    &__form {
-    }
+    &__form {}
 
-    &__form-text-fields {
-    }
+    &__form-text-fields {}
 
-    &__form-text-field {
-    }
+    &__form-text-field {}
 }
-.button {
-}
-.button--black {
-}
-.coltw-8 {
-}
+
+.button {}
+
+.button--black {}
+
+.coltw-8 {}
+
 
 //Filtr
 
-.filtr {
+.filtrs {
+
+    &__elements {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 30px;
+        overflow: hidden;
+    }
+
+    &__elements.open {
+        max-height: 200px;
+    }
+
+    &__elements.open &__element:nth-child(n+6){
+        display: block;
+    }
+
+    &__element {
+        margin: 0 40px 35px 0;
+        padding-bottom: 12px;
+        flex: 0 1 148px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    &__element::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: -40px;
+        height: 1px;
+        background: #CCCCCC;
+    }
+
+    &__elements :last-of-type::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: -0px;
+        height: 1px;
+        background: #CCCCCC;
+    }
+
+
+    &__element::after {
+        content: url(../img/arrow-slider.svg);
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        width: 8px;
+        height: 8px;
+        transform: rotate(-90deg);
+    }
+
+    &__element:nth-child(6n) {
+        margin-right: 0;
+    }
+
+    &__element:nth-child(n+6){
+        display: none;
+    }
+
+    &__button-open{
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+}
+
+
+
+//Tags
+.tags {
     margin-bottom: 45px;
     margin-top: 40px;
 
     &__elements {
         display: flex;
         flex-wrap: wrap;
-        // justify-content: space-between;
+        max-height: 28px;
+        overflow: hidden;
+    }
+
+    &__elements.open {
+        max-height: 200px;
+    }
+
+    &__elements.open &__element:nth-child(n+6) {
+        display: block;
     }
 
     &__element,
@@ -1139,11 +1155,18 @@ body {
     &__element {
         background-color: #f5f5f5;
         margin: 0px 40px 10px 0px;
+        display: block;
+    }
+
+    &__element:nth-child(n+6) {
+        display: none;
     }
 
     &__button-open {
         background-color: #ffffff;
         margin-bottom: 10px;
+        cursor: pointer;
+        margin-left: auto;
     }
 
     &__element:nth-child(6n) {
@@ -1166,17 +1189,13 @@ body {
         margin-top: 40px;
     }
 
-    &__map {
-    }
+    &__map {}
 
-    &__information {
-    }
+    &__information {}
 
-    &__information-address {
-    }
+    &__information-address {}
 
-    &__information-manufacture {
-    }
+    &__information-manufacture {}
 
     &__information-shop {
         margin-bottom: 95px;
@@ -1222,8 +1241,7 @@ body {
         margin-bottom: 15px;
     }
 
-    &__content {
-    }
+    &__content {}
 }
 
 .manufacture {
@@ -1232,8 +1250,7 @@ body {
         margin-bottom: 10px;
     }
 
-    &__content {
-    }
+    &__content {}
 }
 
 .shop {
@@ -1242,8 +1259,7 @@ body {
         margin-bottom: 10px;
     }
 
-    &__content {
-    }
+    &__content {}
 }
 
 //Answers
@@ -1253,18 +1269,15 @@ body {
         margin-bottom: 70px;
     }
 
-    &__left-section {
-    }
+    &__left-section {}
 
     &__title {
         margin-bottom: 30px;
     }
 
-    &__question {
-    }
+    &__question {}
 
-    &__right-section {
-    }
+    &__right-section {}
 
     &__video {
         margin-bottom: 30px;
@@ -1280,8 +1293,7 @@ body {
         margin-bottom: 85px;
     }
 
-    &__inst {
-    }
+    &__inst {}
 
     &__vk-group {
         margin-bottom: 85px;
@@ -1297,8 +1309,7 @@ body {
         margin-bottom: 30px;
     }
 
-    &__title {
-    }
+    &__title {}
 
     &__buttons {
         align-self: flex-end;
@@ -1312,8 +1323,7 @@ body {
         margin-bottom: 40px;
     }
 
-    &__form {
-    }
+    &__form {}
 
     &__form-text-fields {
         .button {
@@ -1333,8 +1343,7 @@ body {
         margin-bottom: 10px;
     }
 
-    &__form-textareas {
-    }
+    &__form-textareas {}
 
     &__form-textarea {
         display: block;
@@ -1383,11 +1392,9 @@ body {
 .category {
     margin-bottom: 100px;
 
-    &__title {
-    }
+    &__title {}
 
-    &__elements {
-    }
+    &__elements {}
 
     &__element {
         height: 336px;
@@ -1429,8 +1436,7 @@ body {
 .dop-information {
     margin-bottom: 75px;
 
-    &__title {
-    }
+    &__title {}
 
     &__item {
         line-height: 18px;
@@ -1551,8 +1557,7 @@ body {
     position: relative;
     text-align: right;
 
-    &__container {
-    }
+    &__container {}
 
     &__menu {
         padding-top: 30px;
