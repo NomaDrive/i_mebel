@@ -1100,7 +1100,7 @@ body {
         background: #CCCCCC;
     }
 
-    &__element:last-child::before {
+    &__element:nth-child(6)::before {
         content: "";
         position: absolute;
         bottom: 0;
@@ -1108,6 +1108,10 @@ body {
         right: -0px;
         height: 1px;
         background: #CCCCCC;
+    }
+
+    &__element:last-child:before{
+        right: -0px;
     }
 
 
@@ -1172,6 +1176,7 @@ body {
             cursor: pointer;
         }
 
+
         label::after {
             content: "";
             position: absolute;
@@ -1188,6 +1193,7 @@ body {
         input:checked + label::after {
             display: block;
         }
+
     }
 
 

@@ -1022,7 +1022,7 @@ body {
   background: #CCCCCC;
 }
 
-.filtrs__element:last-child::before {
+.filtrs__element:nth-child(6)::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -1030,6 +1030,10 @@ body {
   right: -0px;
   height: 1px;
   background: #CCCCCC;
+}
+
+.filtrs__element:last-child:before {
+  right: -0px;
 }
 
 .filtrs__element:nth-child(6n) {
