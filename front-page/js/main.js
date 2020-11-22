@@ -55,7 +55,7 @@ jQuery(document).ready(function ($) {
     $(".filtrs__element-name").click(function () {
         if ($(this).next().hasClass("open")) {
             $(this).next().removeClass("open")
-        }else{
+        } else {
             $(".filtrs__element-drop").removeClass("open")
             $(this).next().addClass("open")
         }
@@ -127,20 +127,19 @@ let product_pr = new Swiper(".slider-product-present", {
     },
     loop: true,
     speed: 700,
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: false,
-    },
+    autoplay: false,
     effect: 'fade',
     fadeEffect: {
         crossFade: true,
-    }
+    },
+    touchRatio: 1,
 });
 for (let i = 0; i < product_pr.length; i++) {
     if (i % 2 == 0) {
-        product_pr[i].params.autoplay.delay = 2000;
-    } else {
-        product_pr[i].params.autoplay.delay = 2500;
+        product_pr[i].params.autoplay.delay = 1000;
+    }
+    else {
+        product_pr[i].params.autoplay.delay = 1200;
     }
 }
 
@@ -241,12 +240,14 @@ let furn_day = new Swiper(".slider-furn-day", {
 
 for (let i = 0; i < furn_day.length; i++) {
     if (i % 3 == 0) {
-        furn_day[i].params.autoplay.delay = 2000;
-    } else {
+        furn_day[i].params.autoplay.delay = 2100;
+    }
+    else {
         if (i % 3 == 1) {
             furn_day[i].params.autoplay.delay = 2200;
-        } else {
-            furn_day[i].params.autoplay.delay = 2500;
+        }
+        else {
+            furn_day[i].params.autoplay.delay = 2300;
         }
     }
 }
@@ -267,23 +268,31 @@ for (let i = 0; i < sliderBlock_furn_d.length; i++) {
 let sl_cards = new Swiper(".slider-cards", {
 
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".sl-cd-nxt",
+        prevEl: ".sl-cd-pr",
     },
     loop: true,
     speed: 600,
     autoplay: {
-        delay: 2000,
+        delay: 3200,
         disableOnInteraction: false,
-    }
+    },
+    nested: true,
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true,
+    },
+    slideToClickedSlide: false,
+    spaceBetween: 60,
 });
 
-let sliderBlock_sl_c = document.querySelectorAll(".slider-cards");
-for (let i = 0; i < sliderBlock_sl_c.length; i++) {
-    sliderBlock_sl_c[i].addEventListener("mouseenter", function (e) {
-        sl_cards[i].autoplay.stop();
-    });
-    sliderBlock_sl_c[i].addEventListener("mouseleave", function (e) {
-        sl_cards[i].autoplay.start();
-    });
-}
+let sliderBlock_sl_c = document.querySelector(".slider-cards");
+
+sliderBlock_sl_c.addEventListener("mouseenter", function (e) {
+    sl_cards.autoplay.stop();
+});
+sliderBlock_sl_c.addEventListener("mouseleave", function (e) {
+    sl_cards.autoplay.start();
+});
+
+
