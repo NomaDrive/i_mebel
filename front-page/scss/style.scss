@@ -343,10 +343,12 @@ body {
         transform: translate(0, -50%);
         z-index: 10;
     }
+
     .buttons {
         border: none;
     }
 }
+
 .slider-cards {
     padding-top: 80px;
 }
@@ -355,10 +357,12 @@ body {
     right: auto;
     left: 46px;
 }
+
 .swiper-button-prev.sl-cd-pr {
     left: 0px;
     right: auto;
 }
+
 .swiper-button-prev.sl-cd-pr,
 .swiper-button-next.sl-cd-nxt {
     position: absolute;
@@ -372,10 +376,12 @@ body {
 .swiper-button-next {
     right: -1px;
 }
+
 .swiper-button-prev {
     right: 46px;
     left: auto;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
     position: absolute;
@@ -384,6 +390,7 @@ body {
     top: auto;
     bottom: 0px;
 }
+
 .swiper-button-prev::after {
     content: "";
     width: 47px;
@@ -392,6 +399,7 @@ body {
     margin: auto 0;
     background-color: #ffffff;
 }
+
 .swiper-button-next::after {
     content: "";
     width: 47px;
@@ -407,6 +415,7 @@ body {
 
     &__item {}
 }
+
 .swiper-container img {
     width: 100%;
     height: max-content;
@@ -1047,23 +1056,38 @@ body {
         display: flex;
         flex-wrap: wrap;
         max-height: 30px;
-        overflow: hidden;
     }
 
     &__elements.open {
         max-height: 200px;
     }
 
-    &__elements.open &__element:nth-child(n+6){
+    &__elements.open &__element:nth-child(n+6) {
         display: block;
     }
 
     &__element {
         margin: 0 40px 35px 0;
-        padding-bottom: 12px;
+
         flex: 0 1 148px;
         position: relative;
         cursor: pointer;
+    }
+
+    &__element-name {
+        position: relative;
+        display: block;
+        padding-bottom: 12px;
+    }
+
+    &__element-name::after {
+        content: url(../img/arrow-slider.svg);
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        width: 8px;
+        height: 8px;
+        transform: rotate(-90deg);
     }
 
     &__element::before {
@@ -1076,7 +1100,7 @@ body {
         background: #CCCCCC;
     }
 
-    &__elements :last-of-type::before {
+    &__element:last-child::before {
         content: "";
         position: absolute;
         bottom: 0;
@@ -1087,31 +1111,92 @@ body {
     }
 
 
-    &__element::after {
-        content: url(../img/arrow-slider.svg);
-        position: absolute;
-        top: 5px;
-        right: 10px;
-        width: 8px;
-        height: 8px;
-        transform: rotate(-90deg);
-    }
-
     &__element:nth-child(6n) {
         margin-right: 0;
     }
 
-    &__element:nth-child(n+6){
+    &__element:nth-child(n+6) {
         display: none;
     }
 
-    &__button-open{
+    &__button-open {
         font-weight: bold;
         cursor: pointer;
         margin-left: auto;
     }
 
+    &__element-drop {}
+
 }
+
+//Drop-element-filtrs
+
+.drop-element {
+    position: absolute;
+    top: 30px;
+    background: #F5F5F5;
+    z-index: 1;
+    padding: 12px 192px 20px 60px;
+    display: none;
+
+    &__list {}
+
+    &.open {
+        display: block;
+
+    }
+
+    &__item {
+        min-width: 85px;
+        position: relative;
+        cursor: pointer;
+
+        input {
+            display: none;
+        }
+
+
+        label {
+            cursor: pointer;
+        }
+
+        label::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -30px;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #000;
+            transform: translate(0, -50%);
+            cursor: pointer;
+        }
+
+        label::after {
+            content: "";
+            position: absolute;
+            display: none;
+            top: 50%;
+            left: -26px;
+            width: 4px;
+            height: 4px;
+            background: #000;
+            transform: translate(0, -50%);
+            cursor: pointer;
+        }
+
+        input:checked + label::after {
+            display: block;
+        }
+    }
+
+
+    &__item:not(:last-child) {
+        margin-bottom: 25px;
+
+    }
+}
+
 
 
 

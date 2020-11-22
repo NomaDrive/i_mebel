@@ -30,27 +30,36 @@ jQuery(document).ready(function ($) {
     //     autoplaySpeed: 1500
     // });
 
-    $(".tags__button-open").click(function(){
+    $(".tags__button-open").click(function () {
         $(".tags__elements").toggleClass("open")
         $(".tags__elements").append(this)
 
-        if($(".tags__elements").hasClass("open")){
+        if ($(".tags__elements").hasClass("open")) {
             $(".tags__button-open").text("Скрыть тэги")
-        }else{
+        } else {
             $(".tags__button-open").text("Показать еще тэги")
         }
     });
 
-    $(".filtrs__button-open").click(function(){
+    $(".filtrs__button-open").click(function () {
         $(".filtrs__elements").toggleClass("open")
         $(".filtrs__elements").append(this)
 
-        if($(".filtrs__elements").hasClass("open")){
+        if ($(".filtrs__elements").hasClass("open")) {
             $(".filtrs__button-open").text("Скрыть тэги")
-        }else{
+        } else {
             $(".filtrs__button-open").text("Показать еще тэги")
         }
     });
+
+    $(".filtrs__element-name").click(function () {
+        if ($(this).next().hasClass("open")) {
+            $(this).next().removeClass("open")
+        }else{
+            $(".filtrs__element-drop").removeClass("open")
+            $(this).next().addClass("open")
+        }
+    })
 })
 jQuery(document).ready(function () {
     // jQuery(".slider-preview").slick({
@@ -130,8 +139,7 @@ let product_pr = new Swiper(".slider-product-present", {
 for (let i = 0; i < product_pr.length; i++) {
     if (i % 2 == 0) {
         product_pr[i].params.autoplay.delay = 2000;
-    }
-    else {
+    } else {
         product_pr[i].params.autoplay.delay = 2500;
     }
 }
@@ -170,8 +178,7 @@ for (let i = 0; i < preview_purc.length; i++) {
     if (i % 2 == 0) {
         console.log(preview_purc[i]);
         preview_purc[i].params.autoplay.delay = 2000;
-    }
-    else {
+    } else {
         preview_purc[i].params.autoplay.delay = 2500;
     }
 }
@@ -235,12 +242,10 @@ let furn_day = new Swiper(".slider-furn-day", {
 for (let i = 0; i < furn_day.length; i++) {
     if (i % 3 == 0) {
         furn_day[i].params.autoplay.delay = 2000;
-    }
-    else {
+    } else {
         if (i % 3 == 1) {
             furn_day[i].params.autoplay.delay = 2200;
-        }
-        else {
+        } else {
             furn_day[i].params.autoplay.delay = 2500;
         }
     }
@@ -282,5 +287,3 @@ for (let i = 0; i < sliderBlock_sl_c.length; i++) {
         sl_cards[i].autoplay.start();
     });
 }
-
-
