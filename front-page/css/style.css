@@ -984,7 +984,6 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-height: 30px;
-  overflow: hidden;
 }
 
 .filtrs__elements.open {
@@ -997,12 +996,28 @@ body {
 
 .filtrs__element {
   margin: 0 40px 35px 0;
-  padding-bottom: 12px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 148px;
           flex: 0 1 148px;
   position: relative;
   cursor: pointer;
+}
+
+.filtrs__element-name {
+  position: relative;
+  display: block;
+  padding-bottom: 12px;
+}
+
+.filtrs__element-name::after {
+  content: url(../img/arrow-slider.svg);
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .filtrs__element::before {
@@ -1015,7 +1030,7 @@ body {
   background: #CCCCCC;
 }
 
-.filtrs__elements :last-of-type::before {
+.filtrs__element:last-child::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -1023,17 +1038,6 @@ body {
   right: -0px;
   height: 1px;
   background: #CCCCCC;
-}
-
-.filtrs__element::after {
-  content: url(../img/arrow-slider.svg);
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  width: 8px;
-  height: 8px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
 }
 
 .filtrs__element:nth-child(6n) {
@@ -1048,6 +1052,68 @@ body {
   font-weight: bold;
   cursor: pointer;
   margin-left: auto;
+}
+
+.drop-element {
+  position: absolute;
+  top: 30px;
+  background: #F5F5F5;
+  z-index: 1;
+  padding: 12px 192px 20px 60px;
+  display: none;
+}
+
+.drop-element.open {
+  display: block;
+}
+
+.drop-element__item {
+  min-width: 85px;
+  position: relative;
+  cursor: pointer;
+}
+
+.drop-element__item input {
+  display: none;
+}
+
+.drop-element__item label {
+  cursor: pointer;
+}
+
+.drop-element__item label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.drop-element__item label::after {
+  content: "";
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: -26px;
+  width: 4px;
+  height: 4px;
+  background: #000;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.drop-element__item input:checked + label::after {
+  display: block;
+}
+
+.drop-element__item:not(:last-child) {
+  margin-bottom: 25px;
 }
 
 .tags {

@@ -51,6 +51,15 @@ jQuery(document).ready(function ($) {
             $(".filtrs__button-open").text("Показать еще тэги")
         }
     });
+
+    $(".filtrs__element-name").click(function () {
+        if ($(this).next().hasClass("open")) {
+            $(this).next().removeClass("open")
+        } else {
+            $(".filtrs__element-drop").removeClass("open")
+            $(this).next().addClass("open")
+        }
+    })
 })
 jQuery(document).ready(function () {
     // jQuery(".slider-preview").slick({
@@ -168,8 +177,7 @@ for (let i = 0; i < preview_purc.length; i++) {
     if (i % 2 == 0) {
         console.log(preview_purc[i]);
         preview_purc[i].params.autoplay.delay = 2000;
-    }
-    else {
+    } else {
         preview_purc[i].params.autoplay.delay = 2500;
     }
 }

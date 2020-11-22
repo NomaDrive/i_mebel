@@ -151,7 +151,8 @@ body {
         }
     }
 
-    &__city {}
+    &__city {
+    }
 
     &__city-name {
         display: flex;
@@ -168,7 +169,8 @@ body {
         margin: auto 0;
     }
 
-    &__menu {}
+    &__menu {
+    }
 
     &__menu-list {
         display: flex;
@@ -184,7 +186,8 @@ body {
         margin-right: 25px;
     }
 
-    &__search {}
+    &__search {
+    }
 
     .search-header {
         display: flex;
@@ -221,9 +224,11 @@ body {
     }
 }
 
-.col {}
+.col {
+}
 
-.col-2 {}
+.col-2 {
+}
 
 //main
 
@@ -251,11 +256,14 @@ body {
         z-index: 100;
     }
 
-    &__list {}
+    &__list {
+    }
 
-    &__item {}
+    &__item {
+    }
 
-    &__item:hover {}
+    &__item:hover {
+    }
 
     &__item:not(:last-child) {
         padding-top: 8px;
@@ -298,7 +306,8 @@ body {
         font-weight: bold;
     }
 
-    &__list {}
+    &__list {
+    }
 
     &__item {
         padding-left: 15px;
@@ -311,7 +320,8 @@ body {
 }
 
 .content {
-    &__container {}
+    &__container {
+    }
 }
 
 .site {
@@ -334,7 +344,8 @@ body {
         position: relative;
     }
 
-    &__slider {}
+    &__slider {
+    }
 
     &__froze {
         position: absolute;
@@ -343,10 +354,12 @@ body {
         transform: translate(0, -50%);
         z-index: 10;
     }
+
     .buttons {
         border: none;
     }
 }
+
 .slider-cards {
 }
 
@@ -372,10 +385,12 @@ body {
 .swiper-button-next {
     right: -1px;
 }
+
 .swiper-button-prev {
     right: 46px;
     left: auto;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
     position: absolute;
@@ -413,8 +428,10 @@ body {
 .slider-preview {
     position: relative;
 
-    &__item {}
+    &__item {
+    }
 }
+
 .swiper-container img {
     width: 100%;
     height: max-content;
@@ -501,7 +518,8 @@ body {
 }
 
 .product-present {
-    &__info {}
+    &__info {
+    }
 
     &__title {
         font-weight: bold;
@@ -521,17 +539,22 @@ body {
         position: relative;
     }
 
-    &__order {}
+    &__order {
+    }
 }
 
-.row {}
+.row {
+}
 
-.coltw-8 {}
+.coltw-8 {
+}
 
-.titles {}
+.titles {
+}
 
 .slider-product-present {
-    &__item {}
+    &__item {
+    }
 }
 
 .product-present__main {
@@ -567,7 +590,8 @@ body {
         margin-bottom: auto;
     }
 
-    &__price {}
+    &__price {
+    }
 
     &__button {
         border: 1px solid #000000;
@@ -575,19 +599,22 @@ body {
     }
 }
 
-.coltw-4 {}
+.coltw-4 {
+}
 
 .price {
     margin-bottom: 20px;
 
-    &__old {}
+    &__old {
+    }
 
     &__new {
         margin-right: 15px;
     }
 }
 
-.buttons {}
+.buttons {
+}
 
 //Section purchase
 .dop-purchase {
@@ -599,7 +626,8 @@ body {
         line-height: 44px;
     }
 
-    &__card {}
+    &__card {
+    }
 
     &__slider {
         margin-bottom: 30px;
@@ -611,7 +639,8 @@ body {
         align-items: flex-end;
     }
 
-    &__description {}
+    &__description {
+    }
 
     &__description-title {
         font-weight: bold;
@@ -623,7 +652,8 @@ body {
         line-height: 18px;
     }
 
-    &__order {}
+    &__order {
+    }
 
     &__price {
         line-height: 130%;
@@ -637,22 +667,29 @@ body {
     }
 }
 
-.row {}
-
-.coltw-3 {}
-
-.coltw-5 {}
-
-.slider-purchase {
-    &__item {}
+.row {
 }
 
-.coltw-4 {}
+.coltw-3 {
+}
+
+.coltw-5 {
+}
+
+.slider-purchase {
+    &__item {
+    }
+}
+
+.coltw-4 {
+}
 
 .price {
-    &__new {}
+    &__new {
+    }
 
-    &__old {}
+    &__old {
+    }
 }
 
 //section cupboard
@@ -686,25 +723,33 @@ body {
         margin-bottom: 36px;
     }
 
-    &__slideshow {}
+    &__slideshow {
+    }
 
-    &__card {}
+    &__card {
+    }
 
-    &__slider {}
+    &__slider {
+    }
 
-    &__info {}
+    &__info {
+    }
 }
 
-.title {}
+.title {
+}
 
-.row {}
+.row {
+}
 
-.coltw-3 {}
+.coltw-3 {
+}
 
 .slider-furn-day {
     margin-bottom: 30px;
 
-    &__item {}
+    &__item {
+    }
 }
 
 .info-furn {
@@ -733,7 +778,8 @@ body {
     }
 }
 
-.coltw-5 {}
+.coltw-5 {
+}
 
 //site-lounge
 
@@ -750,7 +796,8 @@ body {
 }
 
 .cost-calc {
-    &__sec {}
+    &__sec {
+    }
 
     &__title {
         margin-bottom: 25px;
@@ -776,11 +823,14 @@ body {
     }
 }
 
-.row {}
+.row {
+}
 
-.coltw-3 {}
+.coltw-3 {
+}
 
-.title {}
+.title {
+}
 
 .calc-but {
     padding: 12px;
@@ -790,7 +840,8 @@ body {
     cursor: pointer;
 }
 
-.coltw-5 {}
+.coltw-5 {
+}
 
 .call-worker {
     display: flex;
@@ -813,10 +864,12 @@ body {
         margin-top: auto;
     }
 
-    &__button {}
+    &__button {
+    }
 }
 
-.coltw-4 {}
+.coltw-4 {
+}
 
 //bestseller
 .site__bestseller {
@@ -830,22 +883,27 @@ body {
         flex-direction: column;
     }
 
-    &__title {}
+    &__title {
+    }
 }
 
 .site__bestseller .order {
-    &__title {}
+    &__title {
+    }
 
     &__title-decription {
         flex: 1 1 auto;
     }
 
-    &__button {}
+    &__button {
+    }
 }
 
-.coltw-3 {}
+.coltw-3 {
+}
 
-.buttons {}
+.buttons {
+}
 
 //playroom
 
@@ -866,7 +924,8 @@ body {
         margin-bottom: 30px;
     }
 
-    &__description {}
+    &__description {
+    }
 
     &__info {
         display: flex;
@@ -880,10 +939,12 @@ body {
     }
 }
 
-.title {}
+.title {
+}
 
 .slider-playroom {
-    &__item {}
+    &__item {
+    }
 }
 
 .playroom-description {
@@ -894,10 +955,12 @@ body {
         margin-bottom: 15px;
     }
 
-    &__offer-info {}
+    &__offer-info {
+    }
 }
 
-.buttons {}
+.buttons {
+}
 
 //section-style
 .site {
@@ -917,11 +980,14 @@ body {
         margin-bottom: 40px;
     }
 
-    &__more {}
+    &__more {
+    }
 
-    &__main {}
+    &__main {
+    }
 
-    &__card {}
+    &__card {
+    }
 
     &__img {
         background: url(../img/curbstone-slider.jpg);
@@ -929,14 +995,18 @@ body {
         margin-bottom: 30px;
     }
 
-    &__info {}
+    &__info {
+    }
 }
 
-.title {}
+.title {
+}
 
-.row {}
+.row {
+}
 
-.coltw-3 {}
+.coltw-3 {
+}
 
 .stile-info {
     &__title {
@@ -946,12 +1016,14 @@ body {
         line-height: 130%;
     }
 
-    &__description {}
+    &__description {
+    }
 }
 
 //section inst
 .site {
-    &__instagram {}
+    &__instagram {
+    }
 }
 
 .inst {
@@ -959,7 +1031,8 @@ body {
         margin-bottom: 40px;
     }
 
-    &__content {}
+    &__content {
+    }
 
     &__card {
         position: relative;
@@ -978,7 +1051,7 @@ body {
         transform: translate(-50%, -50%);
     }
 
-    &__card:hover>a {
+    &__card:hover > a {
         opacity: 1;
         height: auto;
     }
@@ -988,11 +1061,14 @@ body {
     }
 }
 
-.title {}
+.title {
+}
 
-.row {}
+.row {
+}
 
-.coltw-4 {}
+.coltw-4 {
+}
 
 //tovar
 
@@ -1003,7 +1079,8 @@ body {
 .magazine-cat {
     margin-bottom: 90px;
 
-    &__content {}
+    &__content {
+    }
 
     &__title {
         margin-bottom: 30px;
@@ -1026,78 +1103,70 @@ body {
     }
 }
 
-.row {}
-
-.coltw-4 {}
-
-.title {}
-
-.sub-title {}
-
-.our-question {
-    &__form {}
-
-    &__form-text-fields {}
-
-    &__form-text-field {}
+.row {
 }
 
-.button {}
+.coltw-4 {
+}
 
-.button--black {}
+.title {
+}
 
-.coltw-8 {}
+.sub-title {
+}
 
+.our-question {
+    &__form {
+    }
+
+    &__form-text-fields {
+    }
+
+    &__form-text-field {
+    }
+}
+
+.button {
+}
+
+.button--black {
+}
+
+.coltw-8 {
+}
 
 //Filtr
 
 .filtrs {
-
     &__elements {
         display: flex;
         flex-wrap: wrap;
         max-height: 30px;
-        overflow: hidden;
     }
 
     &__elements.open {
         max-height: 200px;
     }
 
-    &__elements.open &__element:nth-child(n+6){
+    &__elements.open &__element:nth-child(n + 6) {
         display: block;
     }
 
     &__element {
         margin: 0 40px 35px 0;
-        padding-bottom: 12px;
+
         flex: 0 1 148px;
         position: relative;
         cursor: pointer;
     }
 
-    &__element::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: -40px;
-        height: 1px;
-        background: #CCCCCC;
+    &__element-name {
+        position: relative;
+        display: block;
+        padding-bottom: 12px;
     }
 
-    &__elements :last-of-type::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: -0px;
-        height: 1px;
-        background: #CCCCCC;
-    }
-
-
-    &__element::after {
+    &__element-name::after {
         content: url(../img/arrow-slider.svg);
         position: absolute;
         top: 5px;
@@ -1107,23 +1176,108 @@ body {
         transform: rotate(-90deg);
     }
 
+    &__element::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: -40px;
+        height: 1px;
+        background: #cccccc;
+    }
+
+    &__element:last-child::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: -0px;
+        height: 1px;
+        background: #cccccc;
+    }
+
     &__element:nth-child(6n) {
         margin-right: 0;
     }
 
-    &__element:nth-child(n+6){
+    &__element:nth-child(n + 6) {
         display: none;
     }
 
-    &__button-open{
+    &__button-open {
         font-weight: bold;
         cursor: pointer;
         margin-left: auto;
     }
 
+    &__element-drop {
+    }
 }
 
+//Drop-element-filtrs
 
+.drop-element {
+    position: absolute;
+    top: 30px;
+    background: #f5f5f5;
+    z-index: 1;
+    padding: 12px 192px 20px 60px;
+    display: none;
+
+    &__list {
+    }
+
+    &.open {
+        display: block;
+    }
+
+    &__item {
+        min-width: 85px;
+        position: relative;
+        cursor: pointer;
+
+        input {
+            display: none;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        label::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -30px;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #000;
+            transform: translate(0, -50%);
+            cursor: pointer;
+        }
+
+        label::after {
+            content: "";
+            position: absolute;
+            display: none;
+            top: 50%;
+            left: -26px;
+            width: 4px;
+            height: 4px;
+            background: #000;
+            transform: translate(0, -50%);
+            cursor: pointer;
+        }
+
+        input:checked + label::after {
+            display: block;
+        }
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}
 
 //Tags
 .tags {
@@ -1141,7 +1295,7 @@ body {
         max-height: 200px;
     }
 
-    &__elements.open &__element:nth-child(n+6) {
+    &__elements.open &__element:nth-child(n + 6) {
         display: block;
     }
 
@@ -1158,7 +1312,7 @@ body {
         display: block;
     }
 
-    &__element:nth-child(n+6) {
+    &__element:nth-child(n + 6) {
         display: none;
     }
 
@@ -1189,13 +1343,17 @@ body {
         margin-top: 40px;
     }
 
-    &__map {}
+    &__map {
+    }
 
-    &__information {}
+    &__information {
+    }
 
-    &__information-address {}
+    &__information-address {
+    }
 
-    &__information-manufacture {}
+    &__information-manufacture {
+    }
 
     &__information-shop {
         margin-bottom: 95px;
@@ -1241,7 +1399,8 @@ body {
         margin-bottom: 15px;
     }
 
-    &__content {}
+    &__content {
+    }
 }
 
 .manufacture {
@@ -1250,7 +1409,8 @@ body {
         margin-bottom: 10px;
     }
 
-    &__content {}
+    &__content {
+    }
 }
 
 .shop {
@@ -1259,7 +1419,8 @@ body {
         margin-bottom: 10px;
     }
 
-    &__content {}
+    &__content {
+    }
 }
 
 //Answers
@@ -1269,15 +1430,18 @@ body {
         margin-bottom: 70px;
     }
 
-    &__left-section {}
+    &__left-section {
+    }
 
     &__title {
         margin-bottom: 30px;
     }
 
-    &__question {}
+    &__question {
+    }
 
-    &__right-section {}
+    &__right-section {
+    }
 
     &__video {
         margin-bottom: 30px;
@@ -1293,7 +1457,8 @@ body {
         margin-bottom: 85px;
     }
 
-    &__inst {}
+    &__inst {
+    }
 
     &__vk-group {
         margin-bottom: 85px;
@@ -1309,7 +1474,8 @@ body {
         margin-bottom: 30px;
     }
 
-    &__title {}
+    &__title {
+    }
 
     &__buttons {
         align-self: flex-end;
@@ -1323,7 +1489,8 @@ body {
         margin-bottom: 40px;
     }
 
-    &__form {}
+    &__form {
+    }
 
     &__form-text-fields {
         .button {
@@ -1343,7 +1510,8 @@ body {
         margin-bottom: 10px;
     }
 
-    &__form-textareas {}
+    &__form-textareas {
+    }
 
     &__form-textarea {
         display: block;
@@ -1392,9 +1560,11 @@ body {
 .category {
     margin-bottom: 100px;
 
-    &__title {}
+    &__title {
+    }
 
-    &__elements {}
+    &__elements {
+    }
 
     &__element {
         height: 336px;
@@ -1436,7 +1606,8 @@ body {
 .dop-information {
     margin-bottom: 75px;
 
-    &__title {}
+    &__title {
+    }
 
     &__item {
         line-height: 18px;
@@ -1557,7 +1728,8 @@ body {
     position: relative;
     text-align: right;
 
-    &__container {}
+    &__container {
+    }
 
     &__menu {
         padding-top: 30px;
