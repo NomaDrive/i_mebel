@@ -30,24 +30,24 @@ jQuery(document).ready(function ($) {
     //     autoplaySpeed: 1500
     // });
 
-    $(".tags__button-open").click(function(){
+    $(".tags__button-open").click(function () {
         $(".tags__elements").toggleClass("open")
         $(".tags__elements").append(this)
 
-        if($(".tags__elements").hasClass("open")){
+        if ($(".tags__elements").hasClass("open")) {
             $(".tags__button-open").text("Скрыть тэги")
-        }else{
+        } else {
             $(".tags__button-open").text("Показать еще тэги")
         }
     });
 
-    $(".filtrs__button-open").click(function(){
+    $(".filtrs__button-open").click(function () {
         $(".filtrs__elements").toggleClass("open")
         $(".filtrs__elements").append(this)
 
-        if($(".filtrs__elements").hasClass("open")){
+        if ($(".filtrs__elements").hasClass("open")) {
             $(".filtrs__button-open").text("Скрыть тэги")
-        }else{
+        } else {
             $(".filtrs__button-open").text("Показать еще тэги")
         }
     });
@@ -118,10 +118,7 @@ let product_pr = new Swiper(".slider-product-present", {
     },
     loop: true,
     speed: 700,
-    autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
-    },
+    autoplay: false,
     effect: 'fade',
     fadeEffect: {
         crossFade: true,
@@ -273,6 +270,10 @@ let sl_cards = new Swiper(".slider-cards", {
         disableOnInteraction: false,
     },
     nested: true,
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true,
+    },
     slideToClickedSlide: false,
     spaceBetween: 60,
 });
